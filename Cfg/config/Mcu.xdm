@@ -35,9 +35,7 @@
                 <d:var name="McuInitClock" type="BOOLEAN" value="true">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
-                <d:var name="McuNoPll" type="BOOLEAN" value="true">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
+                <d:var name="McuNoPll" type="BOOLEAN" value="false"/>
                 <d:var name="McuEnterLowPowerMode" type="BOOLEAN" value="false"/>
                 <d:var name="McuTimeout" type="INTEGER" value="50000">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
