@@ -767,7 +767,15 @@ extern "C" {
 *
 */
 /** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
-#define PortConfigSet_PortContainer_0_PortPin_0  0
+#define PortConfigSet_PortA_PortPin_8  0
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortA_PortPin_9  1
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortA_PortPin_4_SWD_DIO  2
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortA_PortPin_5_RESET_b  3
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortB_PortPin_4_SWD_CLK  4
 
 
 /**
@@ -788,12 +796,12 @@ extern "C" {
 /**
 * @brief The maximum number of configured pins
 */
-#define PORT_MAX_CONFIGURED_PADS_U16                        ((uint16)1)
+#define PORT_MAX_CONFIGURED_PADS_U16                        ((uint16)5)
 
 /**
  * @brief Number of UnUsed pin array
 */
-#define PORT_MAX_UNUSED_PADS_U16   (127U)
+#define PORT_MAX_UNUSED_PADS_U16   (123U)
 
 /**
 * @brief Port driver Post-build configuration switch
