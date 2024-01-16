@@ -35,10 +35,7 @@
                          value="Low_Drive_Strength">
                     <a:a name="IMPORTER_INFO" value="@DEF"/>
                   </d:var>
-                  <d:var name="PortPinPE" type="ENUMERATION" 
-                         value="PullDisabled">
-                    <a:a name="IMPORTER_INFO" value="@DEF"/>
-                  </d:var>
+                  <d:var name="PortPinPE" type="ENUMERATION" value="PullEnabled"/>
                   <d:var name="PortPinPS" type="ENUMERATION" value="PullDown">
                     <a:a name="IMPORTER_INFO" value="@DEF"/>
                   </d:var>
