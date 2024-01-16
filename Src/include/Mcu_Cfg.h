@@ -200,7 +200,7 @@ extern "C"{
 /**
 * @brief            This parameter shall be set True, if the H/W does not have a PLL or the PLL circuitry is enabled after the power on without S/W intervention.
 */
-#define MCU_NO_PLL   (STD_ON)
+#define MCU_NO_PLL   (STD_OFF)
 
 
 /**
@@ -648,7 +648,7 @@ extern CONST( Mcu_DemConfigType, MCU_CONST) Mcu_Dem_Config;
 /**
 * @brief            ISR Mcu_CmuClockFail_ISR is always available
 */
-#define MCU_CMU_ERROR_ISR_USED (STD_ON)
+#define MCU_CMU_ERROR_ISR_USED (STD_OFF)
 
 
 

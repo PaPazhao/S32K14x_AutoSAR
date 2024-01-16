@@ -372,7 +372,7 @@ static CONST( Mcu_SCG_RegisterConfigType, MCU_CONST) SOSC_ClockConfigPB0_0[MCU_N
     {
         SCG_SOSCDIV_ADDR32,
         (
-            SCG_SOSCDIV_SOSCDIV2_U32((uint32)1U) |
+            SCG_SOSCDIV_SOSCDIV2_U32((uint32)2U) |
             SCG_SOSCDIV_SOSCDIV1_U32((uint32)1U)
         )
     },
@@ -462,6 +462,38 @@ static CONST( Mcu_SCG_RegisterConfigType, MCU_CONST) FIRC_ClockConfigPB0_0[MCU_N
 
 
 
+#if (MCU_INIT_CLOCK == STD_ON)
+/** @violates @ref Mcu_c_REF_3 MISRA 2004 Required Rule 1.4, 31 characters limit.*/
+static CONST( Mcu_SCG_RegisterConfigType, MCU_CONST) SPLL_ClockConfigPB0_0[MCU_NUMBER_OF_SPLL_REGISTERS_U32] =
+{
+    /* SCG_SPLLCFG settings. */
+    {
+        SCG_SPLLCFG_ADDR32,
+        (
+            SCG_SPLLCFG_PREDIV_U32((uint32)0U) |
+            SCG_SPLLCFG_MULT_U32((uint32)24U)
+        )
+    },
+    /* SCG_SPLLDIV settings. */
+    {
+        SCG_SPLLDIV_ADDR32,
+        (
+            SCG_SPLLDIV_SPLLDIV2_U32((uint32)3U) |
+            SCG_SPLLDIV_SPLLDIV1_U32((uint32)3U)
+        )
+    },
+    /* SCG_SPLLCSR settings. */
+    {
+        SCG_SPLLCSR_ADDR32,
+        (
+             SCG_SPLLCSR_SPLL_ENABLE_U32 |
+             SCG_SPLLCSR_SPLLCMRE_ISR_U32 |
+             SCG_SPLLCSR_SPLLCM_DIS_U32
+        )
+    }
+};
+#endif /* (MCU_INIT_CLOCK == STD_ON) */
+
 
 
 
@@ -478,10 +510,10 @@ static CONST( Mcu_SCG_ClockConfigType, MCU_CONST) SCG_ClockConfigPB0_0 =
 
     /* Run Clock Config(SCG_RCCR) */
     (
-        SCG_SCS_FIRC_U32 |
-        SCG_DIVCORE_U32((uint32)0U) |
-        SCG_DIVBUS_U32((uint32)0U) |
-        SCG_DIVSLOW_U32((uint32)1U)
+        SCG_SCS_SPLL_U32 |
+        SCG_DIVCORE_U32((uint32)1U) |
+        SCG_DIVBUS_U32((uint32)1U) |
+        SCG_DIVSLOW_U32((uint32)3U)
     ),
     /* VLPR Clock Config(SCG_VCCR) */
     (
@@ -500,7 +532,7 @@ static CONST( Mcu_SCG_ClockConfigType, MCU_CONST) SCG_ClockConfigPB0_0 =
 
 
     /* SCG ClockOut Config */
-    SCG_CLKOUTCNFG_CLKOUTSEL_SCG_SLOW_CLK_U32,
+    SCG_CLKOUTCNFG_CLKOUTSEL_SPLL_U32,
 
     /* SOSC Config */
    &SOSC_ClockConfigPB0_0,
@@ -512,8 +544,7 @@ static CONST( Mcu_SCG_ClockConfigType, MCU_CONST) SCG_ClockConfigPB0_0 =
     &FIRC_ClockConfigPB0_0,
 
     /* SPLL Config */
-
-    (NULL_PTR)
+    &SPLL_ClockConfigPB0_0
 
 };
 #endif /* (MCU_INIT_CLOCK == STD_ON) */
@@ -954,7 +985,7 @@ static CONST( Mcu_ClockConfigType, MCU_CONST) Mcu_ClockConfigPB0[1] =
         (MCU_IPW_SOSC_UNDER_MCU_CONTROL |
          MCU_IPW_SIRC_UNDER_MCU_CONTROL |
          MCU_IPW_FIRC_UNDER_MCU_CONTROL |
-         MCU_IPW_SPLL_NOT_UNDER_MCU_CONTROL)
+         MCU_IPW_SPLL_UNDER_MCU_CONTROL)
 
     } /* end of Mcu_ClockConfig[0] */
 
