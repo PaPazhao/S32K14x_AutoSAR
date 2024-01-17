@@ -1,15 +1,15 @@
-﻿01 Feb 2024 09:20:01 - Saving file AdminDataTemplates.xml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\AdminDataTemplates.xml)
-01 Feb 2024 09:20:01 - Saving file MiniSysterm.dcf (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\MiniSysterm.dcf)
-01 Feb 2024 09:20:01 - Start import
-01 Feb 2024 09:20:01 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\StandardPackages_AR4.arxml).
-01 Feb 2024 09:20:02 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ServicePortInterfaces_4.3.1.arxml).
-01 Feb 2024 09:20:02 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ApplicationPortInterfaces_4.3.1.arxml).
-01 Feb 2024 09:20:02 - Importing file (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\AUTOSAR\PlatformTypes_AR4.arxml).
-01 Feb 2024 09:20:02 - Merging imported data
-01 Feb 2024 09:20:04 - Finished import
-01 Feb 2024 09:20:04 - Saving file ProfileSettings.xml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\ProfileSettings.xml)
-01 Feb 2024 09:20:04 - Saving file Packages.arxml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\Packages.arxml)
-01 Feb 2024 09:20:05 - Saving file DataTypes.arxml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\DataTypes.arxml)
-01 Feb 2024 09:20:05 - Saving file PortInterfaces.arxml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\PortInterfaces.arxml)
-01 Feb 2024 09:20:05 - Saving file MiniSysterm.arxml (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\ECUProjects\MiniSysterm.arxml)
-01 Feb 2024 09:20:05 - Saving file MiniSysterm.dcf (C:\Users\lizhao\Documents\S32K14x\MiniSysterm\Config\Developer\MiniSysterm.dcf)
+﻿17 Jan 2024 09:29:36 - Saving file AdminDataTemplates.xml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\AdminDataTemplates.xml)
+17 Jan 2024 09:29:36 - Saving file MiniSysterm.dcf (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\MiniSysterm.dcf)
+17 Jan 2024 09:29:36 - Start import
+17 Jan 2024 09:29:36 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\StandardPackages_AR4.arxml).
+17 Jan 2024 09:29:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ServicePortInterfaces_4.3.1.arxml).
+17 Jan 2024 09:29:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ApplicationPortInterfaces_4.3.1.arxml).
+17 Jan 2024 09:29:37 - Importing file (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\AUTOSAR\PlatformTypes_AR4.arxml).
+17 Jan 2024 09:29:37 - Merging imported data
+17 Jan 2024 09:29:39 - Finished import
+17 Jan 2024 09:29:39 - Saving file ProfileSettings.xml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\ProfileSettings.xml)
+17 Jan 2024 09:29:41 - Saving file Packages.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\Packages.arxml)
+17 Jan 2024 09:29:41 - Saving file DataTypes.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\DataTypes.arxml)
+17 Jan 2024 09:29:41 - Saving file PortInterfaces.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\PortInterfaces.arxml)
+17 Jan 2024 09:29:41 - Saving file MiniSysterm.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\ECUProjects\MiniSysterm.arxml)
+17 Jan 2024 09:29:41 - Saving file MiniSysterm.dcf (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\MiniSysterm\Config\Developer\MiniSysterm.dcf)
