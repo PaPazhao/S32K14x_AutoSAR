@@ -7,6 +7,54 @@
             <Setting Value="ASC" Name="nattable.sortDirections"/>
             <Setting Value="1" Name="nattable.sortIndexes"/>
         </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsAlarm">
+            <Setting Value="0,1,2,3," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:92,2:143,3:200," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsApplication">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:188,2:165,3:232,4:222,5:156,6:176,7:108,8:80,9:308,10:242,11:121,12:233,13:133,14:166,15:175,16:131," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsCounter">
+            <Setting Value="0,1,2,3,4,5,6,7," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:104,2:232,3:177,4:205,5:114,6:153,7:212," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsIsr">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:166,2:108,3:143,4:163,5:151,6:150,7:138,8:223,9:187,10:150,11:108,12:132," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsMemoryProtection.OsMemoryRegion">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:148,2:186,3:172,4:220,5:246,6:200,7:213,8:213,9:206,10:164," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsResource">
+            <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:112,2:213,3:144,4:220," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsScheduleTable">
+            <Setting Value="0,1,2,3,4,5," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:142,2:197,3:213,4:187,5:208," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsSpinlock">
+            <Setting Value="0,1,2,3,4,5," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:107,2:166,3:148,4:147,5:215," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
         <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Rte.RteBswModuleInstance">
             <Setting Value="0,1,2,3," Name="nattable.BODY.columnIndexOrder"/>
             <Setting Value="0:20,1:177,2:177,3:214," Name="nattable.BODY.columnWidth.sizes"/>
