@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00044.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="AC9EC117-3112-46E2-AF4F-AFF5BF37FE8F">
+      <SHORT-NAME>ECUCompositionTypes</SHORT-NAME>
+      <ELEMENTS>
+        <COMPOSITION-SW-COMPONENT-TYPE UUID="435AD82B-77A8-4C91-A952-7B181A62983C">
+          <SHORT-NAME>ECU_Composition</SHORT-NAME>
+        </COMPOSITION-SW-COMPONENT-TYPE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE UUID="61FD9C0B-B3D5-49C9-BDEA-FF057E2D57AA">
+      <SHORT-NAME>EndToEndProtections</SHORT-NAME>
+      <ELEMENTS>
+        <END-TO-END-PROTECTION-SET UUID="1490993C-7CF1-4036-A641-DCA8FA619479">
+          <SHORT-NAME>EndToEndProtectionSet</SHORT-NAME>
+        </END-TO-END-PROTECTION-SET>
+      </ELEMENTS>
+    </AR-PACKAGE>
+    <AR-PACKAGE UUID="4791959F-BFC0-4C0D-B874-2882B01E8949">
+      <SHORT-NAME>Systems</SHORT-NAME>
+      <ELEMENTS>
+        <SYSTEM UUID="9C999A7D-92D5-4180-918E-7E4676E86428">
+          <SHORT-NAME>MiniSysterm</SHORT-NAME>
+          <ROOT-SOFTWARE-COMPOSITIONS>
+            <ROOT-SW-COMPOSITION-PROTOTYPE UUID="019CBE97-A456-4261-A854-5E549C08CBA4">
+              <SHORT-NAME>EcuSwComposition</SHORT-NAME>
+              <SOFTWARE-COMPOSITION-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/ECUCompositionTypes/ECU_Composition</SOFTWARE-COMPOSITION-TREF>
+            </ROOT-SW-COMPOSITION-PROTOTYPE>
+          </ROOT-SOFTWARE-COMPOSITIONS>
+        </SYSTEM>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
