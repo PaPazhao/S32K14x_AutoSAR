@@ -47,9 +47,41 @@
     </Input>
     <References>
         <DVWorkspace>.\Config\Developer\MiniSysterm.dcf</DVWorkspace>
+        <FlatMap>.\Config\System\FlatMap.arxml</FlatMap>
+        <FlatECUEX>.\Config\System\FlatExtract.arxml</FlatECUEX>
     </References>
     <EcucSplitter>
         <Configuration>.\Config\ECUC\MiniSysterm.ecuc.arxml</Configuration>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Base_ecuc.arxml">
+            <Module Name="Base"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Rte_ecuc.arxml">
+            <Module Name="Rte"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_vSet_ecuc.arxml">
+            <Module Name="vSet"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_EcuM_ecuc.arxml">
+            <Module Name="EcuM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Os_ecuc.arxml">
+            <Module Name="Os"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_BswM_ecuc.arxml">
+            <Module Name="BswM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Resource_ecuc.arxml">
+            <Module Name="Resource"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Mcu_ecuc.arxml">
+            <Module Name="Mcu"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_EcuC_ecuc.arxml">
+            <Module Name="EcuC"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSysterm_Det_ecuc.arxml">
+            <Module Name="Det"/>
+        </Splitter>
         <OwnFolderForEachSplitter>false</OwnFolderForEachSplitter>
     </EcucSplitter>
     <ECUC>
@@ -73,6 +105,7 @@
                     </Settings>
                 </Settings>
             </Settings>
+            <Settings Name="com.vector.cfg.gui.core.generators.GeneratedModules"/>
         </Generators>
         <Misc>
             <Settings Name="com.vector.cfg.gen.core.bswmdmigration.internal.service.BswImplVersionPersistor">
@@ -160,6 +193,9 @@
                 <Settings Name="|MICROSAR|vDem42">
                     <Setting Value="1.2.0" Name="BswImplSwVersion"/>
                 </Settings>
+            </Settings>
+            <Settings Name="com.vector.cfg.persistency.internal.folder">
+                <Settings Name="TargetFolderManager"/>
             </Settings>
         </Misc>
     </ToolSettings>
