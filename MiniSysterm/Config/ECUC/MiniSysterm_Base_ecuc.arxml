@@ -52,6 +52,10 @@
                   <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T40D2M10I1R0/Base/CommonPublishedInformation/VendorId</DEFINITION-REF>
                   <VALUE>43</VALUE>
                 </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/TS_T40D2M10I1R0/Base/CommonPublishedInformation/VendorApiInfix</DEFINITION-REF>
+                  <VALUE> </VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
               </PARAMETER-VALUES>
             </ECUC-CONTAINER-VALUE>
           </CONTAINERS>

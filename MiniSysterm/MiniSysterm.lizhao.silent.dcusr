@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Settings>
+    <Settings Name="CFG5_GUI_SETTING">
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.BswM.BswMConfig">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:115,2:107," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Rte.RteBswModuleInstance">
+            <Setting Value="0,1,2,3," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:177,2:177,3:214," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Rte.RteBswModuleInstance.RteBswEventToTaskMapping">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:21,1:220,2:187,3:220,4:170,5:186,6:155,7:174,8:171,9:254,10:210,11:141," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuClockSettingConfig">
+            <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:177,2:128,3:142,4:207," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuPublishedInformation.McuResetReasonConf">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:169,2:115," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.pse.dvcfg.filereferences.EcucFileReferencesGrid">
+            <Setting Value="0," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:200," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="0" Name="nattable.sortIndexes"/>
+        </Settings>
+    </Settings>
     <Settings Name="com.vector.cfg.consistency.internal.executer.BackgroundValidationExecuter">
         <Setting Value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz&#xA;aG9sZHhwP0AAAAAAAAx3CAAAABAAAAACdABiY29tLnZlY3Rvci5jZmcubW9kZWwuc2VydmljZXMu&#xA;aW50ZXJuYWwuYnN3aW50YmVoYXZpb3Iuc3luY2hyb25pemF0aW9uLkJzd0ludGVybmFsQmVoYXZp&#xA;b3JWYWxpZGF0b3JzcgAOamF2YS5sYW5nLkxvbmc7i+SQzI8j3wIAAUoABXZhbHVleHIAEGphdmEu&#xA;bGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAAIAAAB0AENjb20udmVjdG9yLmNmZy5tb2RlbC5z&#xA;d2N0ZW1wbGF0ZXMuaW50ZXJuYWwudmFsaWRhdGlvbi5Td2NWYWxpZGF0aW9uc3EAfgADAAAAAcsA&#xA;AAB4" Name="ValidationRuleExecutionTimes"/>
     </Settings>
