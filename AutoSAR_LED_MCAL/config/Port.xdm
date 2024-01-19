@@ -135,10 +135,10 @@
                     </d:lst>
                   </d:ctr>
                   <d:ctr name="SWD" type="IDENTIFIABLE">
-                    <d:var name="PortNumberOfPortPins" type="INTEGER" value="1">
+                    <d:var name="PortNumberOfPortPins" type="INTEGER" value="3">
                       <a:a name="IMPORTER_INFO">
-                        <a:v>@DEF</a:v>
                         <a:v>@CALC</a:v>
+                        <a:v>@DEF</a:v>
                       </a:a>
                     </d:var>
                     <d:lst name="PortPin" type="MAP">
