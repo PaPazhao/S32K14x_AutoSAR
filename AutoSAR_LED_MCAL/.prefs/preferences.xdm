@@ -11,7 +11,24 @@
     <d:var name="Version_AutosarImporter" value="2">
       <a:a name="IMPORTER_INFO" value="@DEF"/>
     </d:var>
-    <d:lst name="AutosarImportersExporters" type="MAP"/>
+    <d:lst name="AutosarImportersExporters" type="MAP">
+      <d:ctr name="mcal_config">
+        <d:var name="FileName" value="export\McalConfig.arxml"/>
+        <d:var name="ContentType" value="asc:4.2.2"/>
+        <d:var name="Validation" value="FALSE"/>
+        <d:var name="pathMapping" value="FALSE"/>
+        <d:var name="pathMappingAuto" value="TRUE"/>
+        <d:lst name="pathMappings" type="MAP"/>
+        <d:var name="Strategy" value="Export"/>
+        <d:var name="ConfigClassPreCompile" value="FALSE"/>
+        <d:var name="ConfigClassLink" value="FALSE"/>
+        <d:var name="ConfigClassPostBuild" value="FALSE"/>
+        <d:var name="ConfigClassPostBuildSelectable" value="FALSE">
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="OverwriteMode" value="FALSE"/>
+      </d:ctr>
+    </d:lst>
     <d:var name="Version_SystemDescriptionExporter" value="1">
       <a:a name="IMPORTER_INFO" value="@DEF"/>
     </d:var>
@@ -107,7 +124,12 @@
     </d:lst>
     <d:lst name="AutoconfigureTriggers" type="MAP"/>
     <d:lst name="WizardConfigurations" type="MAP"/>
-    <d:lst name="ImportersExporters" type="MAP"/>
+    <d:lst name="ImportersExporters" type="MAP">
+      <d:ctr name="mcal_config">
+        <d:var name="Id" value="AutosarImporterExporter"/>
+        <d:var name="Mode" value="export"/>
+      </d:ctr>
+    </d:lst>
   </d:ctr>
   <d:ctr name="ECUCNature">
     <a:a name="DEF" value="XPath:/PreferencesSchema/ECUCNature"/>
@@ -126,21 +148,6 @@
     <d:var name="Derivate" value="S32K14X"/>
     <d:var name="DefaultPreConfiguration" value="McuPreConfiguration"/>
     <d:var name="DefaultRecConfiguration" value="&lt;Use Module Default&gt;"/>
-    <d:ctr name="ConfigTime">
-      <a:a name="ENABLE" value="false"/>
-      <d:var name="PublishedInformation" value="FALSE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="PreCompile" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="Link" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="PostBuild" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-    </d:ctr>
   </d:ctr>
 
 </datamodel>
