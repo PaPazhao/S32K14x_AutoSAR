@@ -1,0 +1,15 @@
+﻿22 Jan 2024 14:50:25 - Saving file AdminDataTemplates.xml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\AdminDataTemplates.xml)
+22 Jan 2024 14:50:25 - Saving file AutoSAR_LED.dcf (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\AutoSAR_LED.dcf)
+22 Jan 2024 14:50:26 - Start import
+22 Jan 2024 14:50:26 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\StandardPackages_AR4.arxml).
+22 Jan 2024 14:50:27 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ServicePortInterfaces_4.3.1.arxml).
+22 Jan 2024 14:50:27 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ApplicationPortInterfaces_4.3.1.arxml).
+22 Jan 2024 14:50:27 - Importing file (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\AUTOSAR\PlatformTypes_AR4.arxml).
+22 Jan 2024 14:50:27 - Merging imported data
+22 Jan 2024 14:50:29 - Finished import
+22 Jan 2024 14:50:29 - Saving file ProfileSettings.xml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\ProfileSettings.xml)
+22 Jan 2024 14:50:30 - Saving file Packages.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\Packages.arxml)
+22 Jan 2024 14:50:30 - Saving file DataTypes.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\DataTypes.arxml)
+22 Jan 2024 14:50:30 - Saving file PortInterfaces.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\PortInterfaces.arxml)
+22 Jan 2024 14:50:30 - Saving file AutoSAR_LED.arxml (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\ECUProjects\AutoSAR_LED.arxml)
+22 Jan 2024 14:50:30 - Saving file AutoSAR_LED.dcf (C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_Project\Config\Developer\AutoSAR_LED.dcf)
