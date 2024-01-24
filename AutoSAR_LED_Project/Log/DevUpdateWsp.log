@@ -1,0 +1,22 @@
+﻿22 Jan 2024 15:01:59 - Opening workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf'...
+22 Jan 2024 15:02:02 - Loading file PlatformTypes_AR4.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+22 Jan 2024 15:02:02 - Loading file BswM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\ServiceComponents\BswM_swc.arxml)
+22 Jan 2024 15:02:02 - Loading file ComM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\ServiceComponents\ComM_swc.arxml)
+22 Jan 2024 15:02:02 - Loading file Det_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\ServiceComponents\Det_swc.arxml)
+22 Jan 2024 15:02:02 - Loading file EcuM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\ServiceComponents\EcuM_swc.arxml)
+22 Jan 2024 15:02:02 - Loading file Os_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\ServiceComponents\Os_swc.arxml)
+22 Jan 2024 15:02:02 - Loading file AutoSAR_LED.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.arxml)
+22 Jan 2024 15:02:02 - Loading file DataTypes.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\DataTypes.arxml)
+22 Jan 2024 15:02:02 - Loading file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\Packages.arxml)
+22 Jan 2024 15:02:02 - Loading file PortInterfaces.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\PortInterfaces.arxml)
+22 Jan 2024 15:02:03 - Opened workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf' successfully.
+22 Jan 2024 15:02:04 - Start import
+22 Jan 2024 15:02:04 - Importing file (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\System\SystemExtract.arxml).
+22 Jan 2024 15:02:05 - Merging imported data
+22 Jan 2024 15:02:05 - Finished import
+22 Jan 2024 15:02:05 - Saving workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf'...
+22 Jan 2024 15:02:05 - Saving file AutoSAR_LED.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.arxml)
+22 Jan 2024 15:02:05 - Saving file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\Packages.arxml)
+22 Jan 2024 15:02:05 - Saved workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf' successfully.
+22 Jan 2024 15:02:05 - Closing workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf'...
+22 Jan 2024 15:02:05 - Closed workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6034138\Workflow\1705906882641-0\Config\Developer\AutoSAR_LED.dcf' successfully.
