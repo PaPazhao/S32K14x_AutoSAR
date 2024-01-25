@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings>
+    <Settings Name="com.vector.cfg.gui.moduleimport.history">
+        <Settings Name="1706166366265">
+            <Settings Name="0">
+                <Settings Name="0">
+                    <Setting Value="true" Name="active"/>
+                    <Setting Value="/Dio/Dio" Name="ecucPath"/>
+                    <Setting Value="Add" Name="importMode"/>
+                </Settings>
+                <Settings Name="1">
+                    <Setting Value="true" Name="active"/>
+                    <Setting Value="/Mcu/Mcu" Name="ecucPath"/>
+                    <Setting Value="Add" Name="importMode"/>
+                </Settings>
+                <Settings Name="2">
+                    <Setting Value="true" Name="active"/>
+                    <Setting Value="/Port/Port" Name="ecucPath"/>
+                    <Setting Value="Add" Name="importMode"/>
+                </Settings>
+                <Settings Name="3">
+                    <Setting Value="true" Name="active"/>
+                    <Setting Value="/Resource/Resource" Name="ecucPath"/>
+                    <Setting Value="Add" Name="importMode"/>
+                </Settings>
+                <Setting Value="C:\Users\lizhao\Documents\Github\S32K14x_MCAL\AutoSAR_LED_MCAL\export\McalConfig.arxml" Name="filePath"/>
+            </Settings>
+        </Settings>
+    </Settings>
+</Settings>

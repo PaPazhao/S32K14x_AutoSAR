@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-1.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="05214e7a-ff95-4a21-b3a6-f53e64c26fea">
+      <SHORT-NAME>TS_T40D2M10I1R0</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="227a7d20-51ed-4100-a2ca-646648ab842c">
+          <SHORT-NAME>Port_ib_bswmd</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE UUID="f928333a-e1ab-4b41-a617-1815710b6c3b">
+              <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+              <ELEMENTS>
+                <BSW-MODULE-DESCRIPTION UUID="3e37147e-f91d-49ef-bed3-a34a9e5f44ad">
+                  <SHORT-NAME>Port</SHORT-NAME>
+                  <INTERNAL-BEHAVIORS>
+                    <BSW-INTERNAL-BEHAVIOR UUID="58f58437-7986-4c4b-9731-cc9a0c929ada">
+                      <SHORT-NAME>PortBehavior</SHORT-NAME>
+                      <EXCLUSIVE-AREAS>
+                        <EXCLUSIVE-AREA UUID="98a75b5e-8cf9-4d77-852e-4e1efb76c0ed">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_00</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="75d10f4b-3dca-409f-8650-4d0e4300b940">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_01</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="9a28b8a8-a33a-4faa-904d-229bf1b639ac">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_02</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="0e80d333-c7cb-4dbd-8f9e-ea07e50f34e0">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_03</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="e202d783-f753-4dd4-a007-f56664ab1a88">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_04</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="8c06c452-db3a-4b71-8664-948619d4c88d">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_05</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="02d4f142-93d5-4bbd-8607-45a97aa6cfc9">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_06</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="f42139bb-3c0e-4f24-aa5f-4bf1f80262f3">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_07</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="33f616eb-1aad-43d8-a6e9-5eca0c6611c1">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_08</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="1ecb3e52-e1b3-4492-8b68-d0d9a111cff4">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_09</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="3064412b-9e0f-45fe-bf67-2355a526bb96">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_10</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="fa1fa8ae-8503-417b-8d3e-546bc082471e">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_11</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="392196ba-b558-4f0f-aff7-1a377147f741">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_12</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="528ddc8b-9be8-49fe-8ed0-62dceb8c5c22">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_13</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="8d3fc078-ac75-4363-adb6-6b17f3f03d0c">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_14</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="0caa4b05-0b9b-432a-a3db-4db176b87b69">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_15</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="7dd1ae36-aa7d-4134-a7dc-a497dbdc52d7">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_16</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="ce672241-6007-412e-9d5b-f676a969a2d2">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_17</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="0fe420fe-e062-44a9-a91a-e41349764fef">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_18</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="63b0d3f9-fc3c-439f-bcff-73705cf1ce2f">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_19</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="b2163f2d-a4bf-46a1-bce6-485f256c33a3">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_20</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="3c4073fb-6b69-427d-925f-68ec809b5681">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_21</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="4bf633da-61cf-46f0-b98c-c696b324174b">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_22</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="5e243bb0-e123-4cf4-a535-d8b71a09c44c">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_23</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="d696ea66-cdee-49c1-973a-6bbe5cdb2d45">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_24</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="0e5a83f6-7197-4890-a1fa-e9ac3457ec02">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_25</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="ee3a826c-21db-4a24-824a-d45295619286">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_26</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="2e9f86c2-3ca2-43da-9e53-31afa291ad2d">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_27</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="0dc43369-c735-4c5a-9813-07a25d8bb45a">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_28</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="e77ef2c9-d82a-4f70-9edb-1085f24ca2f4">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_29</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="2e8f159c-1a57-4f2b-b317-1aa2544474da">
+                          <SHORT-NAME>PORT_EXCLUSIVE_AREA_30</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                      </EXCLUSIVE-AREAS>
+                    </BSW-INTERNAL-BEHAVIOR>
+                  </INTERNAL-BEHAVIORS>
+                </BSW-MODULE-DESCRIPTION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
