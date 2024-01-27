@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Settings>
     <Settings Name="CFG5_GUI_SETTING">
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Det.DetConfigSet.DetModule">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:107,2:97," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
         <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuClockSettingConfig">
             <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
             <Setting Value="0:20,1:178,2:129,3:143,4:208," Name="nattable.BODY.columnWidth.sizes"/>
