@@ -25,6 +25,12 @@
             <Setting Value="ASC" Name="nattable.sortDirections"/>
             <Setting Value="1" Name="nattable.sortIndexes"/>
         </Settings>
+        <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.MICROSAR.Os.OsTask">
+            <Setting Value="0,1,2,3,4,5,6,7,8,9,10,11,12," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:20,1:131,2:123,3:235,4:108,5:119,6:146,7:162,8:95,9:120,10:193,11:121,12:144," Name="nattable.BODY.columnWidth.sizes"/>
+            <Setting Value="ASC" Name="nattable.sortDirections"/>
+            <Setting Value="1" Name="nattable.sortIndexes"/>
+        </Settings>
         <Settings Name="com.vector.cfg.gui.gce.internal.GCETable.TS_T40D2M10I1R0.Mcu.McuModuleConfiguration.McuClockSettingConfig">
             <Setting Value="0,1,2,3,4," Name="nattable.BODY.columnIndexOrder"/>
             <Setting Value="0:20,1:178,2:129,3:143,4:208," Name="nattable.BODY.columnWidth.sizes"/>
