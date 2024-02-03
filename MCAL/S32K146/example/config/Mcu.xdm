@@ -36,9 +36,7 @@
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
                 <d:var name="McuNoPll" type="BOOLEAN" value="false"/>
-                <d:var name="McuEnterLowPowerMode" type="BOOLEAN" value="true">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
+                <d:var name="McuEnterLowPowerMode" type="BOOLEAN" value="false"/>
                 <d:var name="McuTimeout" type="INTEGER" value="50000">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
@@ -590,66 +588,53 @@
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="McuScgClkOutSelect" type="ENUMERATION" 
-                           value="SCG_SLOW_CLK">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                           value="SPLL"/>
                     <d:ctr name="McuRunClockConfig" type="IDENTIFIABLE">
                       <d:var name="McuPreDivSystemClockFrequency" type="FLOAT" 
-                             value="4.8E7">
+                             value="1.6E8">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuCoreClockFrequency" type="FLOAT" 
-                             value="4.8E7">
+                             value="8.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuSystemClockFrequency" type="FLOAT" 
-                             value="4.8E7">
+                             value="8.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuBusClockFrequency" type="FLOAT" 
-                             value="4.8E7">
+                             value="4.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuFlashClockFrequency" type="FLOAT" 
-                             value="2.4E7">
+                             value="2.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuSystemClockSwitch" type="ENUMERATION" 
-                             value="FIRC">
-                        <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
-                          <a:v>@CALC</a:v>
-                        </a:a>
-                      </d:var>
-                      <d:var name="McuCoreClockDivider" type="INTEGER" value="1">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
-                      <d:var name="McuBusClockDivider" type="INTEGER" value="1">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
-                      <d:var name="McuSlowClockDivider" type="INTEGER" value="2">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
+                             value="SPLL"/>
+                      <d:var name="McuCoreClockDivider" type="INTEGER" value="2"/>
+                      <d:var name="McuBusClockDivider" type="INTEGER" value="2"/>
+                      <d:var name="McuSlowClockDivider" type="INTEGER" value="4"/>
                       <d:var name="McuScgClkOutFrequency" type="FLOAT" 
-                             value="2.4E7">
+                             value="1.6E8">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                     </d:ctr>
@@ -706,10 +691,10 @@
                         <a:a name="IMPORTER_INFO" value="@DEF"/>
                       </d:var>
                       <d:var name="McuScgClkOutFrequency" type="FLOAT" 
-                             value="1000000.0">
+                             value="1.6E8">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                     </d:ctr>
@@ -766,10 +751,10 @@
                         <a:a name="IMPORTER_INFO" value="@DEF"/>
                       </d:var>
                       <d:var name="McuScgClkOutFrequency" type="FLOAT" 
-                             value="2.4E7">
+                             value="1.6E8">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                     </d:ctr>
@@ -917,32 +902,28 @@
                     </d:ctr>
                     <d:ctr name="McuSystemPll" type="IDENTIFIABLE">
                       <d:var name="McuSystemPllUnderMcuControl" type="BOOLEAN" 
-                             value="false">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
-                      <d:var name="McuSPLLFrequency" type="FLOAT" value="9.6E7">
+                             value="true"/>
+                      <d:var name="McuSPLLFrequency" type="FLOAT" value="1.6E8">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuSPLLDiv2Frequency" type="FLOAT" 
-                             value="4.8E7">
+                             value="4.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
                       <d:var name="McuSPLLDiv1Frequency" type="FLOAT" 
-                             value="9.6E7">
+                             value="8.0E7">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
-                      <d:var name="McuSPLLEnable" type="BOOLEAN" value="false">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
+                      <d:var name="McuSPLLEnable" type="BOOLEAN" value="true"/>
                       <d:var name="McuSPLLClockMonitorResetEnable" 
                              type="BOOLEAN" value="false">
                         <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -951,12 +932,8 @@
                              value="false">
                         <a:a name="IMPORTER_INFO" value="@DEF"/>
                       </d:var>
-                      <d:var name="McuSPLLDiv2" type="INTEGER" value="2">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
-                      <d:var name="McuSPLLDiv1" type="INTEGER" value="1">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
+                      <d:var name="McuSPLLDiv2" type="INTEGER" value="4"/>
+                      <d:var name="McuSPLLDiv1" type="INTEGER" value="2"/>
                       <d:var name="McuSPLLInputClkPreDivider" type="INTEGER" 
                              value="1">
                         <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -964,13 +941,11 @@
                       <d:var name="McuSPLLInputFrequency" type="FLOAT" 
                              value="8000000.0">
                         <a:a name="IMPORTER_INFO">
-                          <a:v>@DEF</a:v>
                           <a:v>@CALC</a:v>
+                          <a:v>@DEF</a:v>
                         </a:a>
                       </d:var>
-                      <d:var name="McuSPLLMultiplier" type="INTEGER" value="24">
-                        <a:a name="IMPORTER_INFO" value="@DEF"/>
-                      </d:var>
+                      <d:var name="McuSPLLMultiplier" type="INTEGER" value="40"/>
                     </d:ctr>
                     <d:ctr name="McuSIMClockConfig" type="IDENTIFIABLE">
                       <d:var name="McuDebugTraceDividerEnable" type="BOOLEAN" 
@@ -2188,10 +2163,10 @@
                       <d:ctr name="McuClockReferencePoint_0" 
                              type="IDENTIFIABLE">
                         <d:var name="McuClockReferencePointFrequency" 
-                               type="FLOAT" value="4.8E7">
+                               type="FLOAT" value="8.0E7">
                           <a:a name="IMPORTER_INFO">
-                            <a:v>@DEF</a:v>
                             <a:v>@CALC</a:v>
+                            <a:v>@DEF</a:v>
                           </a:a>
                         </d:var>
                         <d:var name="McuClockFrequencySelect" 
