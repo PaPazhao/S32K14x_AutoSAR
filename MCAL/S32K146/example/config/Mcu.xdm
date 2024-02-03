@@ -16,7 +16,7 @@
         <d:lst type="ELEMENTS">
           <d:chc name="Mcu" type="AR-ELEMENT" value="MODULE-CONFIGURATION">
             <d:ctr type="MODULE-CONFIGURATION">
-              <a:a name="DEF" value="ASPath:/TS_T40D2M10I0R0/Mcu"/>
+              <a:a name="DEF" value="ASPath:/TS_T40D2M10I1R0/Mcu"/>
               <a:a name="IMPORTER_INFO" value="@PRE"/>
               <d:var name="IMPLEMENTATION_CONFIG_VARIANT" type="ENUMERATION" 
                      value="VariantPostBuild">
@@ -218,24 +218,18 @@
                 <d:var name="ArReleaseMajorVersion" type="INTEGER" value="4">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
-                <d:var name="ArReleaseMinorVersion" type="INTEGER" value="3">
+                <d:var name="ArReleaseMinorVersion" type="INTEGER" value="2">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
-                <d:var name="ArReleaseRevisionVersion" type="INTEGER" value="1">
+                <d:var name="ArReleaseRevisionVersion" type="INTEGER" value="2">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
                 <d:var name="ModuleId" type="INTEGER" value="101">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
-                <d:var name="SwMajorVersion" type="INTEGER" value="1">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
-                <d:var name="SwMinorVersion" type="INTEGER" value="0">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
-                <d:var name="SwPatchVersion" type="INTEGER" value="0">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
+                <d:var name="SwMajorVersion" type="INTEGER" value="1"/>
+                <d:var name="SwMinorVersion" type="INTEGER" value="0"/>
+                <d:var name="SwPatchVersion" type="INTEGER" value="1"/>
                 <d:var name="VendorApiInfix" type="STRING" value="">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
