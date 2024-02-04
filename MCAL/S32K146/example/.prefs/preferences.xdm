@@ -39,21 +39,6 @@
     <d:var name="Derivate" value="S32K14X"/>
     <d:var name="DefaultPreConfiguration" value="McuPreConfiguration"/>
     <d:var name="DefaultRecConfiguration" value="&lt;Use Module Default&gt;"/>
-    <d:ctr name="ConfigTime">
-      <a:a name="ENABLE" value="false"/>
-      <d:var name="PublishedInformation" value="FALSE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="PreCompile" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="Link" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-      <d:var name="PostBuild" value="TRUE">
-        <a:a name="IMPORTER_INFO" value="@DEF"/>
-      </d:var>
-    </d:ctr>
   </d:ctr>
   <d:ctr name="General">
     <a:a name="DEF" value="XPath:/PreferencesSchema/General"/>
@@ -138,6 +123,24 @@
         <d:var name="Enabled" value="TRUE"/>
         <d:var name="Generate" value="TRUE"/>
         <d:var name="LoadExistingConfigurationFile" value="TRUE"/>
+        <d:var name="SoftwareVersion" value="1.0.1 RTM"/>
+      </d:ctr>
+      <d:ctr name="Gpt">
+        <d:var name="ConfigurationFileURL" value="config\Gpt.xdm"/>
+        <d:var name="ConfigurationFormat" value="xdm"/>
+        <d:var name="GenerationPath" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="PreConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="RecConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="ModuleId" value="Gpt_TS_T40D2M10I1R0"/>
+        <d:var name="Enabled" value="TRUE"/>
+        <d:var name="Generate" value="TRUE"/>
+        <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
         <d:var name="SoftwareVersion" value="1.0.1 RTM"/>
       </d:ctr>
     </d:lst>
