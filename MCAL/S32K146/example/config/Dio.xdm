@@ -23,11 +23,18 @@
               </d:var>
               <d:ctr name="DioConfig" type="IDENTIFIABLE">
                 <d:lst name="DioPort" type="MAP">
-                  <d:ctr name="DioPort_0" type="IDENTIFIABLE">
+                  <d:ctr name="PAT" type="IDENTIFIABLE">
                     <d:var name="DioPortId" type="INTEGER" value="0">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:lst name="DioChannel" type="MAP"/>
+                    <d:lst name="DioChannel" type="MAP">
+                      <d:ctr name="LED1" type="IDENTIFIABLE">
+                        <d:var name="DioChannelId" type="INTEGER" value="8"/>
+                      </d:ctr>
+                      <d:ctr name="LED2" type="IDENTIFIABLE">
+                        <d:var name="DioChannelId" type="INTEGER" value="9"/>
+                      </d:ctr>
+                    </d:lst>
                     <d:lst name="DioChannelGroup" type="MAP"/>
                   </d:ctr>
                 </d:lst>
@@ -70,15 +77,9 @@
                 <d:var name="ModuleId" type="INTEGER" value="120">
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
-                <d:var name="SwMajorVersion" type="INTEGER" value="1">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
-                <d:var name="SwMinorVersion" type="INTEGER" value="0">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
-                <d:var name="SwPatchVersion" type="INTEGER" value="1">
-                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                </d:var>
+                <d:var name="SwMajorVersion" type="INTEGER" value="1"/>
+                <d:var name="SwMinorVersion" type="INTEGER" value="0"/>
+                <d:var name="SwPatchVersion" type="INTEGER" value="1"/>
                 <d:var name="VendorApiInfix" type="STRING" value="">
                   <a:a name="ENABLE" value="false"/>
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
