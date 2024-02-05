@@ -709,7 +709,7 @@ extern "C" {
 *
 * @implements   PORT_DEV_ERROR_DETECT_define
 */
-#define PORT_DEV_ERROR_DETECT           (STD_ON)
+#define PORT_DEV_ERROR_DETECT           (STD_OFF)
 
 /**
 * @brief Use/remove Port_SetPinDirection function from the compiled driver
@@ -758,7 +758,7 @@ extern "C" {
 *
 * @implements   PORT_VERSION_INFO_API_define
 */
-#define PORT_VERSION_INFO_API           (STD_ON)
+#define PORT_VERSION_INFO_API           (STD_OFF)
 
 
 /**
@@ -767,7 +767,15 @@ extern "C" {
 *
 */
 /** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
-#define PortConfigSet_PortContainer_0_PortPin_0  0
+#define PortConfigSet_PortLED_PIN_LED1  0
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortLED_PIN_LED2  1
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortSWD_PIN_SWD_DIO  2
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortSWD_PIN_SWD_RESET  3
+/** @violates @ref PORT_CFG_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define PortConfigSet_PortSWD_PIN_SWD_CLK  4
 
 
 /**
@@ -788,12 +796,12 @@ extern "C" {
 /**
 * @brief The maximum number of configured pins
 */
-#define PORT_MAX_CONFIGURED_PADS_U16                        ((uint16)1)
+#define PORT_MAX_CONFIGURED_PADS_U16                        ((uint16)5)
 
 /**
  * @brief Number of UnUsed pin array
 */
-#define PORT_MAX_UNUSED_PADS_U16   (127U)
+#define PORT_MAX_UNUSED_PADS_U16   (123U)
 
 /**
 * @brief Port driver Post-build configuration switch

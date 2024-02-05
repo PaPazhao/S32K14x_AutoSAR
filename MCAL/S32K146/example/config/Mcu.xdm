@@ -1482,7 +1482,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="McuPeripheralClockSelect" 
-                               type="ENUMERATION" value="FIRC"/>
+                               type="ENUMERATION" value="SOSC"/>
                         <d:var name="McuPeripheralClockDivider" type="INTEGER" 
                                value="1">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1492,7 +1492,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="McuPeripheralClockFrequency" type="FLOAT" 
-                               value="2.4E7">
+                               value="4000000.0">
                           <a:a name="IMPORTER_INFO">
                             <a:v>@CALC</a:v>
                             <a:v>@DEF</a:v>
@@ -2169,7 +2169,7 @@
                       <d:ctr name="McuClockReferencePoint_LPIT" 
                              type="IDENTIFIABLE">
                         <d:var name="McuClockReferencePointFrequency" 
-                               type="FLOAT" value="2.4E7">
+                               type="FLOAT" value="4000000.0">
                           <a:a name="IMPORTER_INFO">
                             <a:v>@CALC</a:v>
                             <a:v>@DEF</a:v>

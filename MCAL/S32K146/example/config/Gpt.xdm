@@ -23,24 +23,19 @@
               </d:var>
               <d:ctr name="GptChannelConfigSet" type="IDENTIFIABLE">
                 <d:lst name="GptChannelConfiguration" type="MAP">
-                  <d:ctr name="GptChannelConfiguration_0" type="IDENTIFIABLE">
+                  <d:ctr name="GptChannelConfiguration_1" type="IDENTIFIABLE">
                     <d:var name="GptChannelId" type="INTEGER" value="0">
                       <a:a name="IMPORTER_INFO">
-                        <a:v>@DEF</a:v>
                         <a:v>@CALC</a:v>
+                        <a:v>@DEF</a:v>
                       </a:a>
                     </d:var>
                     <d:var name="GptHwChannel" type="ENUMERATION" 
-                           value="LPIT_0_CH_0">
-                      <a:a name="IMPORTER_INFO">
-                        <a:v>@DEF</a:v>
-                        <a:v>@CALC</a:v>
-                      </a:a>
-                    </d:var>
+                           value="LPIT_0_CH_0"/>
                     <d:var name="GptChannelMode" type="ENUMERATION" 
                            value="GPT_CH_MODE_CONTINUOUS"/>
                     <d:var name="GptChannelTickFrequency" type="FLOAT" 
-                           value="2.4E7">
+                           value="4000000.0">
                       <a:a name="IMPORTER_INFO">
                         <a:v>@CALC</a:v>
                         <a:v>@DEF</a:v>
@@ -65,7 +60,7 @@
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:ref name="GptChannelClkSrcRef" type="REFERENCE" 
-                           value="ASPath:/Gpt/Gpt/GptDriverConfiguration/GptClockReferencePoint_0"/>
+                           value="ASPath:/Gpt/Gpt/GptDriverConfiguration/GptClockReferencePoint_1"/>
                     <d:var name="GptFtmChannelClkSrc" type="ENUMERATION" 
                            value="SYSTEM_CLOCK">
                       <a:a name="ENABLE" value="false"/>
@@ -104,10 +99,14 @@
                     </d:var>
                     <d:var name="GptChannelTickValueMax" type="INTEGER" 
                            value="4294967295"/>
-                    <d:var name="GptFreezeEnable" type="BOOLEAN" value="true"/>
-                    <d:var name="GptEnableWakeup" type="BOOLEAN" value="false"/>
+                    <d:var name="GptFreezeEnable" type="BOOLEAN" value="true">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="GptEnableWakeup" type="BOOLEAN" value="false">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
                     <d:var name="GptNotification" type="FUNCTION-NAME" 
-                           value="SampleAppGptLed">
+                           value="SampleGptLED">
                       <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:ctr name="GptWakeupConfiguration" type="IDENTIFIABLE">
@@ -631,7 +630,7 @@
                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                 </d:var>
                 <d:lst name="GptClockReferencePoint" type="MAP">
-                  <d:ctr name="GptClockReferencePoint_0" type="IDENTIFIABLE">
+                  <d:ctr name="GptClockReferencePoint_1" type="IDENTIFIABLE">
                     <d:ref name="GptClockReference" type="REFERENCE" 
                            value="ASPath:/Mcu/Mcu/McuModuleConfiguration/McuClockSettingConfig_0/McuClockReferencePoint_LPIT"/>
                   </d:ctr>

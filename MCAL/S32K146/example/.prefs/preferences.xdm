@@ -39,6 +39,21 @@
     <d:var name="Derivate" value="S32K14X"/>
     <d:var name="DefaultPreConfiguration" value="McuPreConfiguration"/>
     <d:var name="DefaultRecConfiguration" value="&lt;Use Module Default&gt;"/>
+    <d:ctr name="ConfigTime">
+      <a:a name="ENABLE" value="false"/>
+      <d:var name="PublishedInformation" value="FALSE">
+        <a:a name="IMPORTER_INFO" value="@DEF"/>
+      </d:var>
+      <d:var name="PreCompile" value="TRUE">
+        <a:a name="IMPORTER_INFO" value="@DEF"/>
+      </d:var>
+      <d:var name="Link" value="TRUE">
+        <a:a name="IMPORTER_INFO" value="@DEF"/>
+      </d:var>
+      <d:var name="PostBuild" value="TRUE">
+        <a:a name="IMPORTER_INFO" value="@DEF"/>
+      </d:var>
+    </d:ctr>
   </d:ctr>
   <d:ctr name="General">
     <a:a name="DEF" value="XPath:/PreferencesSchema/General"/>

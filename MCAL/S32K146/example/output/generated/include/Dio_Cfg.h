@@ -261,13 +261,31 @@ extern "C" {
 
 /* ========== DioConfig ========== */
 
-/* ---------- DioPort_0 ---------- */
+/* ---------- LED ---------- */
 
 /**
-* @brief          Symbolic name for the port DioPort_0.
+* @brief          Symbolic name for the port LED.
 *
 */
-#define DioConf_DioPort_DioPort_0  ((uint8)0x00U)
+#define DioConf_DioPort_LED  ((uint8)0x00U)
+
+/**
+* @brief          Symbolic name for the channel LED1.
+*
+*/
+
+
+/** @violates @ref Dio_Cfg_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define  DioConf_DioChannel_LED1 ((uint16)0x0008U)
+
+/**
+* @brief          Symbolic name for the channel LED2.
+*
+*/
+
+
+/** @violates @ref Dio_Cfg_H_REF_1 The used compilers use more than 31 chars for identifiers. */
+#define  DioConf_DioChannel_LED2 ((uint16)0x0009U)
 
 
 /*=================================================================================================
