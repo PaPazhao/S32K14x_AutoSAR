@@ -21,11 +21,15 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtApMySwc.arxml</ARXML>
+		<DVG>ComponentTypes/CtApMySwc.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtSaDoor.arxml</ARXML>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtSaInteriorLight.arxml</ARXML>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>Constants.arxml</ARXML>
 	</FILEREF>
 </DCF>
