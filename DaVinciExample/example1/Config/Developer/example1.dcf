@@ -25,6 +25,7 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtSaDoor.arxml</ARXML>
+		<DVG>ComponentTypes/CtSaDoor.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtSaInteriorLight.arxml</ARXML>

@@ -7,6 +7,29 @@
       <ELEMENTS>
         <SENSOR-ACTUATOR-SW-COMPONENT-TYPE UUID="D526ED64-3990-4B94-8E51-19328989AA8E">
           <SHORT-NAME>CtSaDoor</SHORT-NAME>
+          <PORTS>
+            <P-PORT-PROTOTYPE UUID="BB34BCF1-3268-45B7-90A1-F711923A9083">
+              <SHORT-NAME>PpDoorState</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <NONQUEUED-SENDER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiDoorState/DeDoorState</DATA-ELEMENT-REF>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CDoorClosed</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-SENDER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiDoorState</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+          </PORTS>
           <INTERNAL-BEHAVIORS>
             <SWC-INTERNAL-BEHAVIOR UUID="B2D8F1CD-7A94-4220-A9FD-C24760A8B634">
               <SHORT-NAME>CtSaDoor_InternalBehavior</SHORT-NAME>
