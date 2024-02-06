@@ -18,6 +18,7 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtCoApplication.arxml</ARXML>
+		<DVG>ComponentTypes/CtCoApplication.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtApMySwc.arxml</ARXML>
