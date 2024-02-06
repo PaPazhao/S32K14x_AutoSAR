@@ -82,9 +82,8 @@
                         <a:v>@CALC</a:v>
                       </a:a>
                     </d:var>
-                    <d:ref name="PwmFtmChannel" type="REFERENCE" >
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:ref>
+                    <d:ref name="PwmFtmChannel" type="REFERENCE" 
+                           value="ASPath:/Pwm/Pwm/PwmChannelConfigSet/PwmFtmModule_0/PwmFtmChannels_0"/>
                     <d:var name="PwmPeriodInTicks" type="BOOLEAN" value="true">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
@@ -113,9 +112,8 @@
                       <a:a name="ENABLE" value="false"/>
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:ref name="PwmMcuClockReferencePoint" type="REFERENCE" >
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:ref>
+                    <d:ref name="PwmMcuClockReferencePoint" type="REFERENCE" 
+                           value="ASPath:/Mcu/Mcu/McuModuleConfiguration/McuClockSettingConfig_0/McuClockReferencePoint_0"/>
                   </d:ctr>
                 </d:lst>
                 <d:lst name="PwmFtmModule" type="MAP">
@@ -309,7 +307,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="ChannelCombDeadTimeEn" type="BOOLEAN" 
-                               value="true"/>
+                               value="false"/>
                       </d:ctr>
                     </d:lst>
                   </d:ctr>
