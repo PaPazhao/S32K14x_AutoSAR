@@ -127,9 +127,7 @@
                       </a:a>
                     </d:var>
                     <d:var name="PwmPrescaler" type="ENUMERATION" 
-                           value="PRESC_1">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                           value="PRESC_32"/>
                     <d:var name="PwmPrescaler_Alternate" type="ENUMERATION" 
                            value="PRESC_1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -164,9 +162,7 @@
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="PwmBDMEnable" type="ENUMERATION" 
-                           value="CNT_STOPED_FLAG_SET">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                           value="CNT_ON_OUTPUTS_ON"/>
                     <d:var name="PwmFtmFaultFunctionality" type="ENUMERATION" 
                            value="FLTCTRL_DISABLED">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -313,9 +309,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="ChannelCombDeadTimeEn" type="BOOLEAN" 
-                               value="false">
-                          <a:a name="IMPORTER_INFO" value="@DEF"/>
-                        </d:var>
+                               value="true"/>
                       </d:ctr>
                     </d:lst>
                   </d:ctr>
@@ -388,13 +382,8 @@
                         <a:v>@CALC</a:v>
                       </a:a>
                     </d:var>
-                    <d:var name="PwmInterruptEnable" type="BOOLEAN" 
-                           value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
-                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="PwmInterruptEnable" type="BOOLEAN" value="true"/>
+                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="true"/>
                   </d:ctr>
                   <d:ctr name="PwmHwConfiguration_1" type="IDENTIFIABLE">
                     <d:var name="PwmInterruptHwId" type="ENUMERATION" 
@@ -516,10 +505,7 @@
                         <a:v>@CALC</a:v>
                       </a:a>
                     </d:var>
-                    <d:var name="PwmInterruptEnable" type="BOOLEAN" 
-                           value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="PwmInterruptEnable" type="BOOLEAN" value="true"/>
                     <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="false">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
@@ -532,10 +518,7 @@
                         <a:v>@CALC</a:v>
                       </a:a>
                     </d:var>
-                    <d:var name="PwmInterruptEnable" type="BOOLEAN" 
-                           value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="PwmInterruptEnable" type="BOOLEAN" value="true"/>
                     <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="false">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
@@ -568,9 +551,7 @@
                            value="false">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="true"/>
                   </d:ctr>
                   <d:ctr name="PwmHwConfiguration_12" type="IDENTIFIABLE">
                     <d:var name="PwmInterruptHwId" type="ENUMERATION" 
@@ -644,13 +625,8 @@
                         <a:v>@CALC</a:v>
                       </a:a>
                     </d:var>
-                    <d:var name="PwmInterruptEnable" type="BOOLEAN" 
-                           value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
-                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="false">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="PwmInterruptEnable" type="BOOLEAN" value="true"/>
+                    <d:var name="PwmChannelIsUsed" type="BOOLEAN" value="true"/>
                   </d:ctr>
                   <d:ctr name="PwmHwConfiguration_17" type="IDENTIFIABLE">
                     <d:var name="PwmInterruptHwId" type="ENUMERATION" 
