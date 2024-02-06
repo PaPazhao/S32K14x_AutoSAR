@@ -1576,9 +1576,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="McuPeripheralClockSelect" 
-                               type="ENUMERATION" value="EXT_CLK_OR_CLK_OFF">
-                          <a:a name="IMPORTER_INFO" value="@DEF"/>
-                        </d:var>
+                               type="ENUMERATION" value="SOSC"/>
                         <d:var name="McuPeripheralClockDivider" type="INTEGER" 
                                value="1">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1588,10 +1586,10 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="McuPeripheralClockFrequency" type="FLOAT" 
-                               value="0.0">
+                               value="8000000.0">
                           <a:a name="IMPORTER_INFO">
-                            <a:v>@DEF</a:v>
                             <a:v>@CALC</a:v>
+                            <a:v>@DEF</a:v>
                           </a:a>
                         </d:var>
                       </d:ctr>
