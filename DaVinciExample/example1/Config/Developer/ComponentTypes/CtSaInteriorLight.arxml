@@ -7,6 +7,30 @@
       <ELEMENTS>
         <SENSOR-ACTUATOR-SW-COMPONENT-TYPE UUID="AF18B9BD-2687-459D-BE55-F777783DCD28">
           <SHORT-NAME>CtSaInteriorLight</SHORT-NAME>
+          <PORTS>
+            <R-PORT-PROTOTYPE UUID="6A1E1E52-67A6-4CBC-BC69-6C9FE7D6CF3A">
+              <SHORT-NAME>PpLightState</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <REQUIRED-COM-SPECS>
+                <NONQUEUED-RECEIVER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiLightState/DeLightState</DATA-ELEMENT-REF>
+                  <ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CLightOff</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-RECEIVER-COM-SPEC>
+              </REQUIRED-COM-SPECS>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiLightState</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
           <INTERNAL-BEHAVIORS>
             <SWC-INTERNAL-BEHAVIOR UUID="3FAEFFD8-D5E4-4F91-852D-B1063387948C">
               <SHORT-NAME>CtSaInteriorLight_InternalBehavior</SHORT-NAME>

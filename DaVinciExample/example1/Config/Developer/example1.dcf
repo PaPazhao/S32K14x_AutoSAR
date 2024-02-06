@@ -29,6 +29,7 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtSaInteriorLight.arxml</ARXML>
+		<DVG>ComponentTypes/CtSaInteriorLight.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>Constants.arxml</ARXML>
