@@ -16,4 +16,16 @@
 	<FILEREF>
 		<ARXML>ECUProjects/example1.arxml</ARXML>
 	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/CtCoApplication.arxml</ARXML>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/CtApMySwc.arxml</ARXML>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/CtSaDoor.arxml</ARXML>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/CtSaInteriorLight.arxml</ARXML>
+	</FILEREF>
 </DCF>
