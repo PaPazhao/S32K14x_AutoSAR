@@ -9,7 +9,7 @@
           <SHORT-NAME>ECU_Composition</SHORT-NAME>
           <COMPONENTS>
             <SW-COMPONENT-PROTOTYPE UUID="A55C3B2D-F487-4FEB-8B58-D60F315A22B3">
-              <SHORT-NAME>CtCoApplication</SHORT-NAME>
+              <SHORT-NAME>CpCoApplication</SHORT-NAME>
               <ADMIN-DATA>
                 <SDGS>
                   <SDG GID="DV:DEV">
