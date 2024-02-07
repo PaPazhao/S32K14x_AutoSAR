@@ -1,0 +1,28 @@
+﻿07 Feb 2024 16:57:26 - Opening workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf'...
+07 Feb 2024 16:57:31 - Loading file PlatformTypes_AR4.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+07 Feb 2024 16:57:31 - Loading file BswM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\ServiceComponents\BswM_swc.arxml)
+07 Feb 2024 16:57:31 - Loading file ComM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\ServiceComponents\ComM_swc.arxml)
+07 Feb 2024 16:57:31 - Loading file Det_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\ServiceComponents\Det_swc.arxml)
+07 Feb 2024 16:57:31 - Loading file EcuM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\ServiceComponents\EcuM_swc.arxml)
+07 Feb 2024 16:57:31 - Loading file Os_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\ServiceComponents\Os_swc.arxml)
+07 Feb 2024 16:57:32 - Loading file Constants.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\Constants.arxml)
+07 Feb 2024 16:57:32 - Loading file CtApMySwc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\CtApMySwc.arxml)
+07 Feb 2024 16:57:32 - Loading file CtCoApplication.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\CtCoApplication.arxml)
+07 Feb 2024 16:57:32 - Loading file CtSaDoor.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\CtSaDoor.arxml)
+07 Feb 2024 16:57:32 - Loading file CtSaInteriorLight.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\CtSaInteriorLight.arxml)
+07 Feb 2024 16:57:32 - Loading file DataTypes.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\DataTypes.arxml)
+07 Feb 2024 16:57:32 - Loading file example1.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.arxml)
+07 Feb 2024 16:57:32 - Loading file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\Packages.arxml)
+07 Feb 2024 16:57:32 - Loading file PortInterfaces.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\PortInterfaces.arxml)
+07 Feb 2024 16:57:33 - Opened workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf' successfully.
+07 Feb 2024 16:57:34 - Start import
+07 Feb 2024 16:57:34 - Importing file (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\System\SystemExtract.arxml).
+07 Feb 2024 16:57:34 - Merging imported data
+07 Feb 2024 16:57:35 - Finished import
+07 Feb 2024 16:57:35 - Saving workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf'...
+07 Feb 2024 16:57:35 - Saving file example1.dvg (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dvg)
+07 Feb 2024 16:57:35 - Saving file example1.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.arxml)
+07 Feb 2024 16:57:35 - Saving file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\Packages.arxml)
+07 Feb 2024 16:57:35 - Saved workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf' successfully.
+07 Feb 2024 16:57:35 - Closing workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf'...
+07 Feb 2024 16:57:35 - Closed workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-6009722\Workflow\1707296215221-0\Config\Developer\example1.dcf' successfully.
