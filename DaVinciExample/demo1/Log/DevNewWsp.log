@@ -1,0 +1,15 @@
+﻿07 Feb 2024 17:27:36 - Saving file AdminDataTemplates.xml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\AdminDataTemplates.xml)
+07 Feb 2024 17:27:36 - Saving file Demo1.dcf (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\Demo1.dcf)
+07 Feb 2024 17:27:37 - Start import
+07 Feb 2024 17:27:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\StandardPackages_AR4.arxml).
+07 Feb 2024 17:27:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ServicePortInterfaces_4.4.0.arxml).
+07 Feb 2024 17:27:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\Predefines\ApplicationPortInterfaces_4.4.0.arxml).
+07 Feb 2024 17:27:37 - Importing file (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\AUTOSAR\PlatformTypes_AR4.arxml).
+07 Feb 2024 17:27:37 - Merging imported data
+07 Feb 2024 17:27:39 - Finished import
+07 Feb 2024 17:27:39 - Saving file ProfileSettings.xml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\ProfileSettings.xml)
+07 Feb 2024 17:27:39 - Saving file Packages.arxml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\Packages.arxml)
+07 Feb 2024 17:27:39 - Saving file DataTypes.arxml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\DataTypes.arxml)
+07 Feb 2024 17:27:39 - Saving file PortInterfaces.arxml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\PortInterfaces.arxml)
+07 Feb 2024 17:27:39 - Saving file Demo1.arxml (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\ECUProjects\Demo1.arxml)
+07 Feb 2024 17:27:39 - Saving file Demo1.dcf (D:\Github\S32K14x_AutoSAR\DaVinciExample\demo1\Config\Developer\Demo1.dcf)

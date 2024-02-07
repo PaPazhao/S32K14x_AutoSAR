@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings>
+    <Settings Name="CFG5_GUI_SETTING">
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideack">
+            <Setting Value="false" Name="buttonStateAck"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideerror">
+            <Setting Value="false" Name="buttonStateError"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hideinfo">
+            <Setting Value="false" Name="buttonStateInfo"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hidewarn">
+            <Setting Value="false" Name="buttonStateWarn"/>
+        </Settings>
+        <Settings Name="com.vector.cfg.gui.app.views.validation.table.ValidationViewTable"/>
+        <Settings Name="com.vector.cfg.gui.danglingreference.view.DanglingReferencesView"/>
+    </Settings>
+    <Settings Name="com.vector.cfg.consistency.internal.executer.BackgroundValidationExecuter">
+        <Setting Value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz&#xA;aG9sZHhwP0AAAAAAAAx3CAAAABAAAAADdAAzY29tLnZlY3Rvci5jZmcudmFsaWRhdGlvbi5iYXNp&#xA;Y3J1bGVzLmltcGwuU2hvcnRuYW1lc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2YWx1&#xA;ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAABAAAAdABOY29tLnZlY3Rvci5j&#xA;ZmcudmFsaWRhdGlvbi5iYXNpY3J1bGVzLm1zci5pbXBsLkJzd0ltcGxlbWVudGF0aW9uVW5hbWJp&#xA;Z3VvdXNuZXNzc3EAfgADAAAAAAEAAAB0AENjb20udmVjdG9yLmNmZy5tb2RlbC5zd2N0ZW1wbGF0&#xA;ZXMuaW50ZXJuYWwudmFsaWRhdGlvbi5Td2NWYWxpZGF0aW9uc3EAfgADAAAAABgAAAB4" Name="ValidationRuleExecutionTimes"/>
+    </Settings>
+</Settings>
