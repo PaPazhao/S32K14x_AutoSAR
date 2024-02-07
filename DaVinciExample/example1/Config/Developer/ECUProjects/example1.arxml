@@ -7,6 +7,19 @@
       <ELEMENTS>
         <COMPOSITION-SW-COMPONENT-TYPE UUID="F635858B-065B-41D1-8DBA-63E7D7CFFFEB">
           <SHORT-NAME>ECU_Composition</SHORT-NAME>
+          <COMPONENTS>
+            <SW-COMPONENT-PROTOTYPE UUID="32E289E2-FC9E-4678-97F2-BEACFA18EF4A">
+              <SHORT-NAME>CpCoApplication</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <TYPE-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/ComponentTypes/CtCoApplication</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
+          </COMPONENTS>
         </COMPOSITION-SW-COMPONENT-TYPE>
       </ELEMENTS>
     </AR-PACKAGE>

@@ -15,6 +15,7 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ECUProjects/example1.arxml</ARXML>
+		<DVG>ECUProjects/example1.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>ComponentTypes/CtCoApplication.arxml</ARXML>
