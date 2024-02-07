@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="00211907-3DFC-42C8-9151-BF171B7E7C6E">
+      <SHORT-NAME>Constants</SHORT-NAME>
+      <ELEMENTS>
+        <CONSTANT-SPECIFICATION UUID="EE6D8730-9ACD-4DA3-A4C4-15647D96D6B6">
+          <SHORT-NAME>CDoorClosed</SHORT-NAME>
+          <VALUE-SPEC>
+            <NUMERICAL-VALUE-SPECIFICATION>
+              <VALUE>0</VALUE>
+            </NUMERICAL-VALUE-SPECIFICATION>
+          </VALUE-SPEC>
+        </CONSTANT-SPECIFICATION>
+        <CONSTANT-SPECIFICATION UUID="B35C7FD8-E7A7-4291-A1CE-9FD8C93AC4C3">
+          <SHORT-NAME>CLightOff</SHORT-NAME>
+          <VALUE-SPEC>
+            <NUMERICAL-VALUE-SPECIFICATION>
+              <VALUE>0</VALUE>
+            </NUMERICAL-VALUE-SPECIFICATION>
+          </VALUE-SPEC>
+        </CONSTANT-SPECIFICATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

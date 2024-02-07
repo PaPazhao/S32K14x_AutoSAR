@@ -13,7 +13,10 @@
         <Settings Name="com.vector.cfg.gui.app.dvcfg.views.validation.validationview.hidewarn">
             <Setting Value="false" Name="buttonStateWarn"/>
         </Settings>
-        <Settings Name="com.vector.cfg.gui.app.views.validation.table.ValidationViewTable"/>
+        <Settings Name="com.vector.cfg.gui.app.views.validation.table.ValidationViewTable">
+            <Setting Value="0,1,2," Name="nattable.BODY.columnIndexOrder"/>
+            <Setting Value="0:250,1:500,2:250," Name="nattable.BODY.columnWidth.sizes"/>
+        </Settings>
         <Settings Name="com.vector.cfg.gui.danglingreference.view.DanglingReferencesView"/>
     </Settings>
     <Settings Name="com.vector.cfg.consistency.internal.executer.BackgroundValidationExecuter">

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="DE294307-42BF-4873-B705-2CCE8914A308">
+      <SHORT-NAME>ComponentTypes</SHORT-NAME>
+      <ELEMENTS>
+        <SENSOR-ACTUATOR-SW-COMPONENT-TYPE UUID="298C6050-8361-49A5-8316-85397CE57C4B">
+          <SHORT-NAME>CtSaInteriorLight</SHORT-NAME>
+          <PORTS>
+            <R-PORT-PROTOTYPE UUID="C547FFDA-6937-4266-B9A4-2A42B11C77D5">
+              <SHORT-NAME>PpLightState</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <REQUIRED-COM-SPECS>
+                <NONQUEUED-RECEIVER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiLightState/DeLightState</DATA-ELEMENT-REF>
+                  <ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CLightOff</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-RECEIVER-COM-SPEC>
+              </REQUIRED-COM-SPECS>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiLightState</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="1FA328B0-5DE4-48C1-B16D-9B5BBE8B5A31">
+              <SHORT-NAME>CtSaInteriorLight_InternalBehavior</SHORT-NAME>
+              <DATA-TYPE-MAPPING-REFS>
+                <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/ComponentTypes/DataTypeMappingSets/DemoTypeMapping</DATA-TYPE-MAPPING-REF>
+              </DATA-TYPE-MAPPING-REFS>
+              <SUPPORTS-MULTIPLE-INSTANTIATION>true</SUPPORTS-MULTIPLE-INSTANTIATION>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+        <SWC-IMPLEMENTATION UUID="24DB2ECD-19E7-4531-A07C-8B1418AAB700">
+          <SHORT-NAME>CtSaInteriorLight_Implementation</SHORT-NAME>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/ComponentTypes/CtSaInteriorLight/CtSaInteriorLight_InternalBehavior</BEHAVIOR-REF>
+        </SWC-IMPLEMENTATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

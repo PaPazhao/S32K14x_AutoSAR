@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="DE294307-42BF-4873-B705-2CCE8914A308">
+      <SHORT-NAME>ComponentTypes</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE UUID="1D8CAB2D-572E-494B-84FB-C7447C1D8291">
+          <SHORT-NAME>CtApMySwc</SHORT-NAME>
+          <PORTS>
+            <P-PORT-PROTOTYPE UUID="0E561871-55FF-4B00-B8DB-CB24DF3C848B">
+              <SHORT-NAME>PpLightStateFront</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <NONQUEUED-SENDER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiLightState/DeLightState</DATA-ELEMENT-REF>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CLightOff</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-SENDER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiLightState</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE UUID="2A86F7D7-ABFE-49A6-86E1-23B53B09E4A8">
+              <SHORT-NAME>PpDoorStateFrontRight</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <REQUIRED-COM-SPECS>
+                <NONQUEUED-RECEIVER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiDoorState/DeDoorState</DATA-ELEMENT-REF>
+                  <ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CDoorClosed</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-RECEIVER-COM-SPEC>
+              </REQUIRED-COM-SPECS>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiDoorState</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE UUID="0075974D-A1F8-4612-8A1B-D9808AB8A404">
+              <SHORT-NAME>PpDoorStateFrontLeft</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <REQUIRED-COM-SPECS>
+                <NONQUEUED-RECEIVER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiDoorState/DeDoorState</DATA-ELEMENT-REF>
+                  <ALIVE-TIMEOUT>0</ALIVE-TIMEOUT>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CDoorClosed</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-RECEIVER-COM-SPEC>
+              </REQUIRED-COM-SPECS>
+              <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiDoorState</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="6873B01C-6117-4652-AA0C-6254B492E225">
+              <SHORT-NAME>CtApMySwc_InternalBehavior</SHORT-NAME>
+              <DATA-TYPE-MAPPING-REFS>
+                <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/ComponentTypes/DataTypeMappingSets/DemoTypeMapping</DATA-TYPE-MAPPING-REF>
+              </DATA-TYPE-MAPPING-REFS>
+              <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SWC-IMPLEMENTATION UUID="E879B9BD-3006-4997-A228-9966B2171A29">
+          <SHORT-NAME>CtApMySwc_Implementation</SHORT-NAME>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/ComponentTypes/CtApMySwc/CtApMySwc_InternalBehavior</BEHAVIOR-REF>
+        </SWC-IMPLEMENTATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

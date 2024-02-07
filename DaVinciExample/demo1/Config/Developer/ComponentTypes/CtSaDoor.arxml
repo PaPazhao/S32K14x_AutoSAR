@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="DE294307-42BF-4873-B705-2CCE8914A308">
+      <SHORT-NAME>ComponentTypes</SHORT-NAME>
+      <ELEMENTS>
+        <SENSOR-ACTUATOR-SW-COMPONENT-TYPE UUID="2008E8EC-D624-433E-953D-4AAC249F98C3">
+          <SHORT-NAME>CtSaDoor</SHORT-NAME>
+          <PORTS>
+            <P-PORT-PROTOTYPE UUID="3A762D7D-0703-452B-B43F-F3FD0F32EF3F">
+              <SHORT-NAME>PpDoorState</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <NONQUEUED-SENDER-COM-SPEC>
+                  <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/PiDoorState/DeDoorState</DATA-ELEMENT-REF>
+                  <INIT-VALUE>
+                    <CONSTANT-REFERENCE>
+                      <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/Constants/CDoorClosed</CONSTANT-REF>
+                    </CONSTANT-REFERENCE>
+                  </INIT-VALUE>
+                </NONQUEUED-SENDER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/PiDoorState</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+          </PORTS>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="5173E3E8-B0EE-461F-959C-D4572060D1B6">
+              <SHORT-NAME>CtSaDoor_InternalBehavior</SHORT-NAME>
+              <DATA-TYPE-MAPPING-REFS>
+                <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/ComponentTypes/DataTypeMappingSets/DemoTypeMapping</DATA-TYPE-MAPPING-REF>
+              </DATA-TYPE-MAPPING-REFS>
+              <SUPPORTS-MULTIPLE-INSTANTIATION>true</SUPPORTS-MULTIPLE-INSTANTIATION>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+        <SWC-IMPLEMENTATION UUID="64CA402C-04F3-4C4D-B71F-B37C90A36F17">
+          <SHORT-NAME>CtSaDoor_Implementation</SHORT-NAME>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/ComponentTypes/CtSaDoor/CtSaDoor_InternalBehavior</BEHAVIOR-REF>
+        </SWC-IMPLEMENTATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
