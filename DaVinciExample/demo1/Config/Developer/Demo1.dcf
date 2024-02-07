@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DCF ARSCHEMA="440_DEV">
 	<Version>1.0</Version>
 	<PROFILESETTINGS>ProfileSettings.xml</PROFILESETTINGS>
 	<ADMINDATATEMPLATES>AdminDataTemplates.xml</ADMINDATATEMPLATES>
-	<PROJECTASSISTANT>../../Demo1.dpa</PROJECTASSISTANT>
+	<PROJECTASSISTANT>..\..\Demo1.dpa</PROJECTASSISTANT>
 	<FILEREF>
 		<ARXML>Packages.arxml</ARXML>
 	</FILEREF>
@@ -14,24 +14,24 @@
 		<ARXML>PortInterfaces.arxml</ARXML>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ECUProjects/Demo1.arxml</ARXML>
-		<DVG>ECUProjects/Demo1.dvg</DVG>
+		<ARXML>ECUProjects\Demo1.arxml</ARXML>
+		<DVG>ECUProjects\Demo1.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ComponentTypes/CtCoApplication.arxml</ARXML>
-		<DVG>ComponentTypes/CtCoApplication.dvg</DVG>
+		<ARXML>ComponentTypes\CtCoApplication.arxml</ARXML>
+		<DVG>ComponentTypes\CtCoApplication.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ComponentTypes/CtApMySwc.arxml</ARXML>
-		<DVG>ComponentTypes/CtApMySwc.dvg</DVG>
+		<ARXML>ComponentTypes\CtApMySwc.arxml</ARXML>
+		<DVG>ComponentTypes\CtApMySwc.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ComponentTypes/CtSaDoor.arxml</ARXML>
-		<DVG>ComponentTypes/CtSaDoor.dvg</DVG>
+		<ARXML>ComponentTypes\CtSaDoor.arxml</ARXML>
+		<DVG>ComponentTypes\CtSaDoor.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ComponentTypes/CtSaInteriorLight.arxml</ARXML>
-		<DVG>ComponentTypes/CtSaInteriorLight.dvg</DVG>
+		<ARXML>ComponentTypes\CtSaInteriorLight.arxml</ARXML>
+		<DVG>ComponentTypes\CtSaInteriorLight.dvg</DVG>
 	</FILEREF>
 	<FILEREF>
 		<ARXML>Constants.arxml</ARXML>

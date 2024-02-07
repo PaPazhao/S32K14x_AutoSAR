@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="ff55d029-386d-43a2-b3c2-dfef4c7a5e36">
+      <SHORT-NAME>MICROSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="774ad410-ab4a-43be-8636-fc24c945ebd0">
+          <SHORT-NAME>Can_TricoreMultican_ib_bswmd</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE UUID="6ea1e9cd-882a-4375-9aa1-5bbc19288830">
+              <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+              <ELEMENTS>
+                <BSW-MODULE-DESCRIPTION UUID="6be66b51-d1e3-40ab-8063-8eb15bd01f88">
+                  <SHORT-NAME>Can</SHORT-NAME>
+                  <PROVIDED-ENTRYS>
+                    <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                      <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_BusOff</BSW-MODULE-ENTRY-REF>
+                    </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                    <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                      <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_Wakeup</BSW-MODULE-ENTRY-REF>
+                    </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                    <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                      <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_Mode</BSW-MODULE-ENTRY-REF>
+                    </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                  </PROVIDED-ENTRYS>
+                  <INTERNAL-BEHAVIORS>
+                    <BSW-INTERNAL-BEHAVIOR UUID="7691c533-da65-4256-9953-d67f3e20e946">
+                      <SHORT-NAME>Can_TricoreMultican_Behavior</SHORT-NAME>
+                      <EXCLUSIVE-AREAS>
+                        <EXCLUSIVE-AREA UUID="40dbb7a7-c98a-4185-b102-a7d03633c826">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_0</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="b1bb7a05-51a5-4a5f-b44c-1eecc52634fb">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_1</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="31c6d9e9-b269-4d10-be24-0a08c827f3db">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_2</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="d75a10b8-b86a-4943-9c04-27071b37b439">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_3</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="9aa4ce98-993d-42c4-be30-e6b5c41aa71f">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_4</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="ae951552-746c-4eb7-bbc9-5ae97c5c26d9">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_5</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="d5c714b4-2b7d-4e21-9a57-d8224502cc58">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_6</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="a70db1ba-d2c5-4aca-b725-cde2b7e27ddc">
+                          <SHORT-NAME>CAN_EXCLUSIVE_AREA_7</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                      </EXCLUSIVE-AREAS>
+                      <ENTITYS>
+                        <BSW-SCHEDULABLE-ENTITY UUID="24217a78-43f2-4e8c-93f6-3fba26e8fc39">
+                          <SHORT-NAME>Can_MainFunction_BusOff</SHORT-NAME>
+                          <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_BusOff</IMPLEMENTED-ENTRY-REF>
+                        </BSW-SCHEDULABLE-ENTITY>
+                        <BSW-SCHEDULABLE-ENTITY UUID="5c5ab0aa-3661-4159-b666-790da3079e10">
+                          <SHORT-NAME>Can_MainFunction_Wakeup</SHORT-NAME>
+                          <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_Wakeup</IMPLEMENTED-ENTRY-REF>
+                        </BSW-SCHEDULABLE-ENTITY>
+                        <BSW-SCHEDULABLE-ENTITY UUID="2c215531-5ec0-4328-b3ac-43fea389fd8b">
+                          <SHORT-NAME>Can_MainFunction_Mode</SHORT-NAME>
+                          <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can_MainFunction_Mode</IMPLEMENTED-ENTRY-REF>
+                        </BSW-SCHEDULABLE-ENTITY>
+                      </ENTITYS>
+                      <EVENTS>
+                        <BSW-TIMING-EVENT UUID="1af1861c-8c9c-49ac-b810-16cb10cf924b">
+                          <SHORT-NAME>Can_MainFunction_BusOffTimingEvent0</SHORT-NAME>
+                          <STARTS-ON-EVENT-REF DEST="BSW-SCHEDULABLE-ENTITY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can/Can_TricoreMultican_Behavior/Can_MainFunction_BusOff</STARTS-ON-EVENT-REF>
+                          <PERIOD>0.01</PERIOD>
+                        </BSW-TIMING-EVENT>
+                        <BSW-TIMING-EVENT UUID="298007c2-aa0d-40c9-80c4-3fb802e7431c">
+                          <SHORT-NAME>Can_MainFunction_WakeupTimingEvent0</SHORT-NAME>
+                          <STARTS-ON-EVENT-REF DEST="BSW-SCHEDULABLE-ENTITY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can/Can_TricoreMultican_Behavior/Can_MainFunction_Wakeup</STARTS-ON-EVENT-REF>
+                          <PERIOD>0.01</PERIOD>
+                        </BSW-TIMING-EVENT>
+                        <BSW-TIMING-EVENT UUID="d2e51b25-b141-4668-a6ef-b0d7e2698016">
+                          <SHORT-NAME>Can_MainFunction_ModeTimingEvent0</SHORT-NAME>
+                          <STARTS-ON-EVENT-REF DEST="BSW-SCHEDULABLE-ENTITY">/MICROSAR/Can_TricoreMultican_ib_bswmd/BswModuleDescriptions/Can/Can_TricoreMultican_Behavior/Can_MainFunction_Mode</STARTS-ON-EVENT-REF>
+                          <PERIOD>0.01</PERIOD>
+                        </BSW-TIMING-EVENT>
+                      </EVENTS>
+                    </BSW-INTERNAL-BEHAVIOR>
+                  </INTERNAL-BEHAVIORS>
+                </BSW-MODULE-DESCRIPTION>
+                <BSW-MODULE-ENTRY UUID="2a0587f9-9143-45c6-991e-2c7c024548c9">
+                  <SHORT-NAME>Can_MainFunction_BusOff</SHORT-NAME>
+                  <CALL-TYPE>SCHEDULED</CALL-TYPE>
+                  <EXECUTION-CONTEXT>TASK</EXECUTION-CONTEXT>
+                </BSW-MODULE-ENTRY>
+                <BSW-MODULE-ENTRY UUID="4a7bc1aa-9ad3-4459-8172-dd5c9332785c">
+                  <SHORT-NAME>Can_MainFunction_Wakeup</SHORT-NAME>
+                  <CALL-TYPE>SCHEDULED</CALL-TYPE>
+                  <EXECUTION-CONTEXT>TASK</EXECUTION-CONTEXT>
+                </BSW-MODULE-ENTRY>
+                <BSW-MODULE-ENTRY UUID="23464b03-a774-4107-8f36-65e645601bbd">
+                  <SHORT-NAME>Can_MainFunction_Mode</SHORT-NAME>
+                  <CALL-TYPE>SCHEDULED</CALL-TYPE>
+                  <EXECUTION-CONTEXT>TASK</EXECUTION-CONTEXT>
+                </BSW-MODULE-ENTRY>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

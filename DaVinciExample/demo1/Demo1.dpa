@@ -36,8 +36,11 @@
     </Folders>
     <Tools>
         <DEV>C:\Program Files (x86)\Vector DaVinci Developer 4.4 (SP2)\Bin\DaVinciDEV.exe</DEV>
+        <LegacyConverter Version="1.8.38.0"/>
+        <DDM Version="5.20.35"/>
     </Tools>
     <Input>
+        <ECUEX>Config\System\SystemExtract.arxml</ECUEX>
         <Options>
             <IgnoreUuidsSystemDescriptionFiles>false</IgnoreUuidsSystemDescriptionFiles>
             <IgnoreUuidsStandardConfigurationFiles>false</IgnoreUuidsStandardConfigurationFiles>
@@ -47,9 +50,21 @@
     </Input>
     <References>
         <DVWorkspace>.\Config\Developer\Demo1.dcf</DVWorkspace>
+        <FlatMap>.\Config\System\FlatMap.arxml</FlatMap>
+        <FlatECUEX>.\Config\System\FlatExtract.arxml</FlatECUEX>
+        <OEMCommunicationExtract>Config\System\Communication.arxml</OEMCommunicationExtract>
+        <EcucFileReferences/>
     </References>
+    <Display LastVersion="5.20.35">
+        <FileSet Id="" CS="59848e1a">
+            <File Order="0" EcuInstance="LED" Hash="7f836d5f8012fbb387ab0fd97641c817" FileCategory="legacy_communication_data">D:\Github\S32K14x_AutoSAR\AutoSAR_LED.dbc</File>
+        </FileSet>
+        <Merge/>
+        <SelectiveUpdate Active="false" CS="ecd6502d"/>
+    </Display>
     <ECUC>
-        <Active RootPackageName="/ActiveEcuC/ActiveEcuC">.\Config\ECUC\Demo1.ecuc.arxml</Active>
+        <Active RootPackageName="/ActiveEcuC/ActiveEcuC">Config\ECUC\Demo1.ecuc.arxml</Active>
+        <Derived RootPackageName="/InitialEcuC/InitialEcuC">Config\ECUC\Demo1.ecuc.Initial.arxml</Derived>
     </ECUC>
     <PostBuildLoadable RTEDataFreezeChecksum="" CurrentConfigurationPhase="PRE_COMPILE"/>
     <DEVSettings>
@@ -192,5 +207,9 @@
         <AmdGenerateDebugData>false</AmdGenerateDebugData>
         <AutomaticSyncSystemDescription>false</AutomaticSyncSystemDescription>
     </Miscellaneous>
-    <SwctGeneration/>
+    <SwctGeneration>
+        <Component Name="CtApMySwc" GenerationEnabled="true"/>
+        <Component Name="CtSaDoor" GenerationEnabled="true"/>
+        <Component Name="CtSaInteriorLight" GenerationEnabled="true"/>
+    </SwctGeneration>
 </ProjectAssistant>

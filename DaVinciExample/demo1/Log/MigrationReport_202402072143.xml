@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Migration>
+    <ActiveEcuC>
+        <ModuleConfigurations>
+            <ModuleConfiguration shortname="EcuM">
+                <SubContainers>
+                    <Container shortname="EcuMConfiguration">
+                        <SubContainers>
+                            <Container shortname="EcuMCommonConfiguration">
+<SubContainers>
+    <Container shortname="CN_CAN00_30389e62">
+        <OldName>CAN00_f26020e5</OldName>
+    </Container>
+</SubContainers>
+                            </Container>
+                        </SubContainers>
+                    </Container>
+                </SubContainers>
+            </ModuleConfiguration>
+            <ModuleConfiguration shortname="CanSM">
+                <SubContainers>
+                    <Container shortname="CanSMConfiguration">
+                        <SubContainers>
+                            <Container shortname="CHNL_0fb271d2">
+<OldName>CHNL_f276589c</OldName>
+                            </Container>
+                            <Container shortname="CHNL_0fb271d2">
+<SubContainers>
+    <Container shortname="CT_CAN00_97828181">
+        <OldName>CT_CAN00_57163831</OldName>
+    </Container>
+</SubContainers>
+                            </Container>
+                        </SubContainers>
+                    </Container>
+                </SubContainers>
+            </ModuleConfiguration>
+            <ModuleConfiguration shortname="CanIf">
+                <SubContainers>
+                    <Container shortname="CanIfCtrlDrvCfg_7d254554">
+                        <OldName>Can</OldName>
+                    </Container>
+                    <Container shortname="CanIfCtrlDrvCfg_7d254554">
+                        <SubContainers>
+                            <Container shortname="CT_CAN00_f3965de2">
+<OldName>CT_CAN00_57163831</OldName>
+                            </Container>
+                        </SubContainers>
+                    </Container>
+                </SubContainers>
+            </ModuleConfiguration>
+            <ModuleConfiguration shortname="ComM">
+                <SubContainers>
+                    <Container shortname="ComMConfigSet">
+                        <SubContainers>
+                            <Container shortname="CN_CAN00_30389e62">
+<SubContainers>
+    <Container shortname="CN_CAN00_8ffceba9">
+        <OldName>CHNL_f276589c</OldName>
+    </Container>
+</SubContainers>
+                            </Container>
+                            <Container shortname="CN_CAN00_30389e62">
+<OldName>CAN00_f26020e5</OldName>
+                            </Container>
+                            <Container shortname="CN_CAN00_5e8ba665">
+<OldName>USR_CHNL_f276589c</OldName>
+                            </Container>
+                        </SubContainers>
+                    </Container>
+                </SubContainers>
+            </ModuleConfiguration>
+            <ModuleConfiguration shortname="Can">
+                <SubContainers>
+                    <Container shortname="CanConfigSet">
+                        <SubContainers>
+                            <Container shortname="CT_CAN00_f3965de2">
+<OldName>CT_CAN00_57163831</OldName>
+                            </Container>
+                        </SubContainers>
+                    </Container>
+                </SubContainers>
+            </ModuleConfiguration>
+        </ModuleConfigurations>
+    </ActiveEcuC>
+</Migration>

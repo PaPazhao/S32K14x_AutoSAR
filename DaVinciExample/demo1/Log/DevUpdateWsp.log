@@ -1,0 +1,27 @@
+﻿07 Feb 2024 21:44:21 - Opening workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf'...
+07 Feb 2024 21:44:25 - Loading file PlatformTypes_AR4.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+07 Feb 2024 21:44:25 - Loading file ComM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\ServiceComponents\ComM_swc.arxml)
+07 Feb 2024 21:44:25 - Loading file Det_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\ServiceComponents\Det_swc.arxml)
+07 Feb 2024 21:44:25 - Loading file EcuM_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\ServiceComponents\EcuM_swc.arxml)
+07 Feb 2024 21:44:25 - Loading file Os_swc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\ServiceComponents\Os_swc.arxml)
+07 Feb 2024 21:44:25 - Loading file Constants.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Constants.arxml)
+07 Feb 2024 21:44:25 - Loading file CtApMySwc.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\CtApMySwc.arxml)
+07 Feb 2024 21:44:25 - Loading file CtCoApplication.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\CtCoApplication.arxml)
+07 Feb 2024 21:44:25 - Loading file CtSaDoor.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\CtSaDoor.arxml)
+07 Feb 2024 21:44:25 - Loading file CtSaInteriorLight.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\CtSaInteriorLight.arxml)
+07 Feb 2024 21:44:25 - Loading file DataTypes.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\DataTypes.arxml)
+07 Feb 2024 21:44:25 - Loading file Demo1.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.arxml)
+07 Feb 2024 21:44:25 - Loading file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Packages.arxml)
+07 Feb 2024 21:44:25 - Loading file PortInterfaces.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\PortInterfaces.arxml)
+07 Feb 2024 21:44:26 - Opened workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf' successfully.
+07 Feb 2024 21:44:27 - Start import
+07 Feb 2024 21:44:27 - Importing file (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\System\SystemExtract.arxml).
+07 Feb 2024 21:44:28 - Merging imported data
+07 Feb 2024 21:44:28 - Finished import
+07 Feb 2024 21:44:28 - Saving workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf'...
+07 Feb 2024 21:44:28 - Saving file Demo1.dvg (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dvg)
+07 Feb 2024 21:44:28 - Saving file Demo1.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.arxml)
+07 Feb 2024 21:44:28 - Saving file Packages.arxml (C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Packages.arxml)
+07 Feb 2024 21:44:28 - Saved workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf' successfully.
+07 Feb 2024 21:44:28 - Closing workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf'...
+07 Feb 2024 21:44:28 - Closed workspace 'C:\Users\lizhao\AppData\Local\Temp\DaVinci\Cfg-3302098\Workflow\1707313425769-0\Config\Developer\Demo1.dcf' successfully.
