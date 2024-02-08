@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="DE294307-42BF-4873-B705-2CCE8914A308">
+      <SHORT-NAME>ComponentTypes</SHORT-NAME>
+      <ELEMENTS>
+        <COMPLEX-DEVICE-DRIVER-SW-COMPONENT-TYPE UUID="3B307633-FF09-431E-98FF-F826FD880E1C">
+          <SHORT-NAME>CtCddIoHwAb</SHORT-NAME>
+          <PORTS>
+            <P-PORT-PROTOTYPE UUID="B7E9DF30-B2E9-48E5-8B1F-1B89D89B556E">
+              <SHORT-NAME>PiDoorIoHwAbFrontLeft</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <SERVER-COM-SPEC>
+                  <OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiDoorIoHwAb/ReadChannel</OPERATION-REF>
+                  <QUEUE-LENGTH>1</QUEUE-LENGTH>
+                </SERVER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterfaces/PiDoorIoHwAb</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <P-PORT-PROTOTYPE UUID="B4DEA429-662C-4F8F-9BFD-0D2A256256C1">
+              <SHORT-NAME>PiDoorIoHwAbFrontRight</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <SERVER-COM-SPEC>
+                  <OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiDoorIoHwAb/ReadChannel</OPERATION-REF>
+                  <QUEUE-LENGTH>1</QUEUE-LENGTH>
+                </SERVER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterfaces/PiDoorIoHwAb</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <P-PORT-PROTOTYPE UUID="5B39DABF-302D-4BA1-B049-69C8325B947B">
+              <SHORT-NAME>PpLightIoHwAbLightFront</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV:DEV">
+                    <SD GID="DV:ImportModePreset">Keep</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PROVIDED-COM-SPECS>
+                <SERVER-COM-SPEC>
+                  <OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiLightIoHwAb/WriteChannel</OPERATION-REF>
+                  <QUEUE-LENGTH>1</QUEUE-LENGTH>
+                </SERVER-COM-SPEC>
+              </PROVIDED-COM-SPECS>
+              <PROVIDED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterfaces/PiLightIoHwAb</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+          </PORTS>
+          <INTERNAL-BEHAVIORS>
+            <SWC-INTERNAL-BEHAVIOR UUID="0BC84997-0901-4F21-BA97-C74FC7733A44">
+              <SHORT-NAME>CtCddIoHwAb_InternalBehavior</SHORT-NAME>
+              <EVENTS>
+                <OPERATION-INVOKED-EVENT UUID="F82D9541-D632-484F-8571-F47E7CDA6F91">
+                  <SHORT-NAME>OIT_PiDoorIoHwAbFrontLeft_ReadChannel_PiDoorIoHwAbFrontLeft_ReadChannel</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentTypes/CtCddIoHwAb/CtCddIoHwAb_InternalBehavior/RCtCddIoHwAb_PpDoorIoHwAbFrontLeft_ReadChannel</START-ON-EVENT-REF>
+                  <OPERATION-IREF>
+                    <CONTEXT-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentTypes/CtCddIoHwAb/PiDoorIoHwAbFrontLeft</CONTEXT-P-PORT-REF>
+                    <TARGET-PROVIDED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiDoorIoHwAb/ReadChannel</TARGET-PROVIDED-OPERATION-REF>
+                  </OPERATION-IREF>
+                </OPERATION-INVOKED-EVENT>
+                <OPERATION-INVOKED-EVENT UUID="15D4260A-3057-4E34-8E60-17CFE0048273">
+                  <SHORT-NAME>OIT_PiDoorIoHwAbFrontRight_ReadChannel_PiDoorIoHwAbFrontRight_ReadChannel</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentTypes/CtCddIoHwAb/CtCddIoHwAb_InternalBehavior/RCtCddIoHwAb_PpDoorIoHwAbFrontRight_ReadChannel</START-ON-EVENT-REF>
+                  <OPERATION-IREF>
+                    <CONTEXT-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentTypes/CtCddIoHwAb/PiDoorIoHwAbFrontRight</CONTEXT-P-PORT-REF>
+                    <TARGET-PROVIDED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiDoorIoHwAb/ReadChannel</TARGET-PROVIDED-OPERATION-REF>
+                  </OPERATION-IREF>
+                </OPERATION-INVOKED-EVENT>
+                <OPERATION-INVOKED-EVENT UUID="4E03FD58-EC09-4298-A15C-F3D842D0C4A9">
+                  <SHORT-NAME>OIT_PpLightIoHwAbLightFront_WriteChannel_PpLightIoHwAbLightFront_WriteChannel</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/ComponentTypes/CtCddIoHwAb/CtCddIoHwAb_InternalBehavior/RCtCddIoHwAb_PpLightIoHwAbLightFront_WriteChannel</START-ON-EVENT-REF>
+                  <OPERATION-IREF>
+                    <CONTEXT-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ComponentTypes/CtCddIoHwAb/PpLightIoHwAbLightFront</CONTEXT-P-PORT-REF>
+                    <TARGET-PROVIDED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/PiLightIoHwAb/WriteChannel</TARGET-PROVIDED-OPERATION-REF>
+                  </OPERATION-IREF>
+                </OPERATION-INVOKED-EVENT>
+              </EVENTS>
+              <RUNNABLES>
+                <RUNNABLE-ENTITY UUID="5C05C589-348E-45B2-9BF8-02CCE8F48FF9">
+                  <SHORT-NAME>RCtCddIoHwAb_PpDoorIoHwAbFrontLeft_ReadChannel</SHORT-NAME>
+                </RUNNABLE-ENTITY>
+                <RUNNABLE-ENTITY UUID="86DBDFD1-3A77-4111-BB25-A067AB36F3C4">
+                  <SHORT-NAME>RCtCddIoHwAb_PpDoorIoHwAbFrontRight_ReadChannel</SHORT-NAME>
+                </RUNNABLE-ENTITY>
+                <RUNNABLE-ENTITY UUID="3379E2CA-73D2-4F25-B892-144357F54887">
+                  <SHORT-NAME>RCtCddIoHwAb_PpLightIoHwAbLightFront_WriteChannel</SHORT-NAME>
+                </RUNNABLE-ENTITY>
+              </RUNNABLES>
+              <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+            </SWC-INTERNAL-BEHAVIOR>
+          </INTERNAL-BEHAVIORS>
+        </COMPLEX-DEVICE-DRIVER-SW-COMPONENT-TYPE>
+        <SWC-IMPLEMENTATION UUID="BCAB7ED5-BAA0-41EB-8E03-350F59D675DF">
+          <SHORT-NAME>CtCddIoHwAb_Implementation</SHORT-NAME>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/ComponentTypes/CtCddIoHwAb/CtCddIoHwAb_InternalBehavior</BEHAVIOR-REF>
+        </SWC-IMPLEMENTATION>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

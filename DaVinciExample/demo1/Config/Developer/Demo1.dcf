@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <DCF ARSCHEMA="440_DEV">
 	<Version>1.0</Version>
 	<PROFILESETTINGS>ProfileSettings.xml</PROFILESETTINGS>
@@ -35,5 +35,9 @@
 	</FILEREF>
 	<FILEREF>
 		<ARXML>Constants.arxml</ARXML>
+	</FILEREF>
+	<FILEREF>
+		<ARXML>ComponentTypes/CtCddIoHwAb.arxml</ARXML>
+		<DVG>ComponentTypes/CtCddIoHwAb.dvg</DVG>
 	</FILEREF>
 </DCF>
