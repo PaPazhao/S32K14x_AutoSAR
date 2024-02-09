@@ -47,9 +47,42 @@
     </Input>
     <References>
         <DVWorkspace>.\Config\Developer\MiniSystemDemo.dcf</DVWorkspace>
+        <FlatMap>.\Config\System\FlatMap.arxml</FlatMap>
+        <FlatECUEX>.\Config\System\FlatExtract.arxml</FlatECUEX>
     </References>
     <EcucSplitter>
         <Configuration>.\Config\ECUC\MiniSystemDemo.ecuc.arxml</Configuration>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_vSet_ecuc.arxml">
+            <Module Name="vSet"/>
+            <Module Name="vSet_001"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Rte_ecuc.arxml">
+            <Module Name="Rte"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Resource_ecuc.arxml">
+            <Module Name="Resource"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Os_ecuc.arxml">
+            <Module Name="Os"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Base_ecuc.arxml">
+            <Module Name="Base"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_BswM_ecuc.arxml">
+            <Module Name="BswM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_EcuM_ecuc.arxml">
+            <Module Name="EcuM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_EcuC_ecuc.arxml">
+            <Module Name="EcuC"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Mcu_ecuc.arxml">
+            <Module Name="Mcu"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\MiniSystemDemo_Det_ecuc.arxml">
+            <Module Name="Det"/>
+        </Splitter>
         <OwnFolderForEachSplitter>false</OwnFolderForEachSplitter>
     </EcucSplitter>
     <ECUC>
@@ -72,6 +105,10 @@
                         <Setting Value="false" Name="tresosverification"/>
                     </Settings>
                 </Settings>
+            </Settings>
+            <Settings Name="com.vector.cfg.gui.core.generators.GeneratedModules">
+                <Setting Value="false" Name="Adc"/>
+                <Setting Value="false" Name="vSet_001"/>
             </Settings>
         </Generators>
         <Misc>
@@ -160,6 +197,9 @@
                 <Settings Name="|MICROSAR|vDem42">
                     <Setting Value="1.2.0" Name="BswImplSwVersion"/>
                 </Settings>
+            </Settings>
+            <Settings Name="com.vector.cfg.persistency.internal.folder">
+                <Settings Name="TargetFolderManager"/>
             </Settings>
         </Misc>
     </ToolSettings>
