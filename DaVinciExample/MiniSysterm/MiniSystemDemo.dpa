@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProjectAssistant Version="5.18.37 SP1">
     <General>
-        <Name>MiniSysterm</Name>
+        <Name>MiniSystemDemo</Name>
         <Version>1.0</Version>
         <Author>lizhao</Author>
     </General>
     <Environment>
         <Platform>Canoeemu</Platform>
         <Derivative UUID="F00EC541-61AC-4EEC-B220-5CA57C4AB070">S32K148</Derivative>
-        <Compiler UUID="ACA8C365-6D1E-49FA-97F8-792D81C79C74">Arm</Compiler>
+        <Compiler UUID="FA51A718-3ADB-438D-98F3-245101681392">Iar</Compiler>
         <SipIds>
             <SipId>CBD1800257_D01</SipId>
         </SipIds>
@@ -24,7 +24,7 @@
         <Source>.\Appl\Source</Source>
         <ServiceComponents>.\Config\ServiceComponents</ServiceComponents>
         <Logs>.\Log</Logs>
-        <SIP>.\..\..\..\..\..\..\vector\CBD1800257_D01_S32K1xx</SIP>
+        <SIP>C:\vector\CBD1800257_D01_S32K1xx</SIP>
         <StartMenu></StartMenu>
         <ApplicationComponentFolders>
             <ApplicationComponentFolder>.\Config\ApplicationComponents</ApplicationComponentFolder>
@@ -46,46 +46,14 @@
         </Options>
     </Input>
     <References>
-        <DVWorkspace>.\Config\Developer\MiniSysterm.dcf</DVWorkspace>
-        <FlatMap>.\Config\System\FlatMap.arxml</FlatMap>
-        <FlatECUEX>.\Config\System\FlatExtract.arxml</FlatECUEX>
+        <DVWorkspace>.\Config\Developer\MiniSystemDemo.dcf</DVWorkspace>
     </References>
     <EcucSplitter>
-        <Configuration>.\Config\ECUC\MiniSysterm.ecuc.arxml</Configuration>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Base_ecuc.arxml">
-            <Module Name="Base"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Rte_ecuc.arxml">
-            <Module Name="Rte"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_vSet_ecuc.arxml">
-            <Module Name="vSet"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_EcuM_ecuc.arxml">
-            <Module Name="EcuM"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Os_ecuc.arxml">
-            <Module Name="Os"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_BswM_ecuc.arxml">
-            <Module Name="BswM"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Resource_ecuc.arxml">
-            <Module Name="Resource"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Mcu_ecuc.arxml">
-            <Module Name="Mcu"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_EcuC_ecuc.arxml">
-            <Module Name="EcuC"/>
-        </Splitter>
-        <Splitter File=".\Config\ECUC\MiniSysterm_Det_ecuc.arxml">
-            <Module Name="Det"/>
-        </Splitter>
+        <Configuration>.\Config\ECUC\MiniSystemDemo.ecuc.arxml</Configuration>
         <OwnFolderForEachSplitter>false</OwnFolderForEachSplitter>
     </EcucSplitter>
     <ECUC>
-        <Active RootPackageName="/ActiveEcuC/ActiveEcuC">.\Config\ECUC\MiniSysterm.ecuc.arxml</Active>
+        <Active RootPackageName="/ActiveEcuC/ActiveEcuC">.\Config\ECUC\MiniSystemDemo.ecuc.arxml</Active>
     </ECUC>
     <PostBuildLoadable RTEDataFreezeChecksum="" CurrentConfigurationPhase="PRE_COMPILE"/>
     <DEVSettings>
@@ -105,7 +73,6 @@
                     </Settings>
                 </Settings>
             </Settings>
-            <Settings Name="com.vector.cfg.gui.core.generators.GeneratedModules"/>
         </Generators>
         <Misc>
             <Settings Name="com.vector.cfg.gen.core.bswmdmigration.internal.service.BswImplVersionPersistor">
@@ -193,9 +160,6 @@
                 <Settings Name="|MICROSAR|vDem42">
                     <Setting Value="1.2.0" Name="BswImplSwVersion"/>
                 </Settings>
-            </Settings>
-            <Settings Name="com.vector.cfg.persistency.internal.folder">
-                <Settings Name="TargetFolderManager"/>
             </Settings>
         </Misc>
     </ToolSettings>

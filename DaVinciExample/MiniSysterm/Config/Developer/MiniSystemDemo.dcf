@@ -3,7 +3,7 @@
 	<Version>1.0</Version>
 	<PROFILESETTINGS>ProfileSettings.xml</PROFILESETTINGS>
 	<ADMINDATATEMPLATES>AdminDataTemplates.xml</ADMINDATATEMPLATES>
-	<PROJECTASSISTANT>../../MiniSysterm.dpa</PROJECTASSISTANT>
+	<PROJECTASSISTANT>../../MiniSystemDemo.dpa</PROJECTASSISTANT>
 	<FILEREF>
 		<ARXML>Packages.arxml</ARXML>
 	</FILEREF>
@@ -14,6 +14,6 @@
 		<ARXML>PortInterfaces.arxml</ARXML>
 	</FILEREF>
 	<FILEREF>
-		<ARXML>ECUProjects/MiniSysterm.arxml</ARXML>
+		<ARXML>ECUProjects/MiniSystemDemo.arxml</ARXML>
 	</FILEREF>
 </DCF>

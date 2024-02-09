@@ -2,10 +2,10 @@
 <!--This file was saved with a tool from Vector Informatik GmbH-->
 <AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00044.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <AR-PACKAGES>
-    <AR-PACKAGE UUID="9AA68837-386F-4226-912A-2E29502E229B">
+    <AR-PACKAGE UUID="51B195A1-EA1E-47E9-81DD-CE54FB816484">
       <SHORT-NAME>Predefined_DEV</SHORT-NAME>
       <AR-PACKAGES>
-        <AR-PACKAGE UUID="9BCB0AAD-3BC5-4F83-BC73-00E077D2CA08">
+        <AR-PACKAGE UUID="B546A1CB-5E64-4D8B-BC0F-65986383CFA1">
           <SHORT-NAME>PortInterfaces</SHORT-NAME>
           <ELEMENTS>
             <CLIENT-SERVER-INTERFACE UUID="5C21FAD0-38A7-4388-9C0A-FA015136641D">
